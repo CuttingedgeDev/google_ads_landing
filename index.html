@@ -1,0 +1,389 @@
+<!-- import React from 'react'
+import { Link } from 'react-router-dom'
+import BurgerMenuLanding from '../../components/burgermenu/BurgerMenuLanding'
+//usersnap
+import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='./src/css/landing.css'>
+  </head>
+  <body>
+    <div class='landing-body'>
+      <div class='landing-header' id='landing-header'>
+        <p class='landing-logo-txt'>
+          Flair
+        </p>
+        <div class='landing-menu-group'>
+          <a class='landing-menu' href='#howitworks'>
+            How it works
+          </a>
+          <a class='landing-menu' href='#features'>
+            Features
+          </a>
+          <a class='landing-menu' href='#whoweserve'>
+            Who we serve
+          </a>
+          <a class='landing-menu' href='#getintouch'>
+            Get in touch
+          </a>
+        </div>
+        <div class='landing-header-btn-group'>
+          <Link to='/login'>
+            <button class='landing-login-btn'>
+              Log in
+            </button>
+          </Link>
+          <Link to='#'>
+            <button class='landing-join-btn'>
+              Join beta
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div class='landing-block1'>
+        <div class='landing-block1-left'>
+          <p class='landing-title'>
+            Flair makes <span class='landing-title-orange-underline' style='background-image: url("./src/images/landing-decor6.svg")'>
+              apartment </span> PPC easy
+          </p>
+          <p class='landing-subtitle'>
+            Launch campaigns tailored to your community in minutes
+          </p>
+          <img
+            src='./src/images/landing-decor2.svg'
+            alt=''
+            class='landing-decor2'
+          />
+          <img
+            src='./src/images/landing-decor4.svg'
+            alt=''
+            class='landing-decor4'
+          />
+          <div class='landing-block1-btn-group'>
+            <Link to='#'>
+              <button class='landing-block1-join-btn'>
+                Join beta
+              </button>
+            </Link>
+            <Link to='#'>
+              <button class='landing-block1-learn-btn'>
+                Learn more
+              </button>
+            </Link>
+          </div>
+        </div>
+        <img 
+          src='./src/images/landing-card.png'
+          alt=''
+          class='landing-block1-card'
+        />
+        <img
+          src='./src/images/landing-decor1.svg'
+          alt=''
+          class='landing-decor1'
+        />
+        <img
+          src='./src/images/landing-decor3.svg'
+          alt=''
+          class='landing-decor3'
+        />
+        <img
+          src='./src/images/landing-decor5.png'
+          alt=''
+          class='landing-decor5'
+        />
+      </div>
+      <div id='howitworks' class='landing-block2'>
+        <p class='pink-title'>
+          ABOUT THE PRODUCT
+        </p>
+        <p class='landing-block2-title'>
+          How it works?
+        </p>
+        <div class='landing-block2-content'>
+          <img
+            src='./src/images/landing-block2-card1.svg'
+            alt=''
+            class='landing-block2-img1'
+          />
+          <div>
+            <p class='landing-block2-content-title'>
+              Onboard Your Property
+            </p>
+            <p class='landing-block2-content-subtitle'>
+              Enter your community website link-Flair pulls the relevant information to customize the strategy for your property
+            </p>
+            <Link to='#' class='join-beta-link'>
+              Join beta&nbsp;&nbsp;&gt;
+            </Link>
+          </div>
+        </div>
+        <div class='landing-block2-content'>
+          <div class='landing-block2-content2-left'>
+            <p class='landing-block2-content-title'>
+              Launch Your Campaigns
+            </p>
+            <p class='landing-block2-content-subtitle'>
+              Log in to Flair, set your monthly budget, and boom!
+            </p>
+            <Link to='#' class='join-beta-link'>
+              Join beta&nbsp;&nbsp;&gt;
+            </Link>
+          </div>
+          <img
+            src='./src/images/landing-block2-card2.svg'
+            alt=''
+            class='landing-block2-img2'
+          />
+        </div>
+        <div class='landing-block2-content'>
+          <img
+            src='./src/images/landing-block2-card3.png'
+            alt=''
+            class='landing-block2-img3'
+          />
+          <div>
+            <p class='landing-block2-content-title'>
+              Watch the Leads Pour In
+            </p>
+            <p class='landing-block2-content-subtitle'>
+              Flair improves your campaigns in real-time. No heavy lifting necessary
+            </p>
+            <Link to='#' class='join-beta-link'>
+              Join beta&nbsp;&nbsp;&gt;
+            </Link>
+          </div>
+        </div>
+
+      </div>
+      <div id='features' class='landing-block3'>
+        <div class='landing-block3-content'>
+          <p class='pink-title' style='text-align: left'>
+            OUR SERVICES
+          </p>
+          <p class='landing-block2-title' style='text-align: left'>
+            Features
+          </p>
+          <p class='landing-block3-content-subtitle'> 
+            Deliver a Google Ads experience that reduces the burden on your tean, and delights your prospect
+          </p>
+          <Link to='#'>
+            <button class='landing-block3-btn'>
+              Join beta
+            </button>
+          </Link>
+        </div>
+        <div class='landing-block3-content-group'>
+          <img
+            src='./src/images/landing-block3-decor1.svg'
+            alt=''
+            class='landing-block3-decor1'
+          />
+          <div class='landing-block3-content-left'>
+            <div class='landing-block3-tile'>
+              <div class='landing-block3-content-img1'></div>
+              <p class='landing-block3-content-title'>
+                Update Budgets Instantly
+              </p>
+              <p class='landing-block3-content-subtitle'>
+                Adjust monthly budgets with the click of a button
+              </p>
+            </div>
+            <div class='landing-block3-tile'>
+              <div class='landing-block3-content-img2'></div>
+              <p class='landing-block3-content-title'>
+                Highly Flexible
+              </p>
+              <p class='landing-block3-content-subtitle'>
+                Start and stop instantly. No more email back and forth
+              </p>
+            </div>
+          </div>
+          <div class='landing-block3-content-right'>
+            <div class='landing-block3-tile'>
+              <div class='landing-block3-content-img3'></div>
+              <p class='landing-block3-content-title'>
+                No Experience Required
+              </p>
+              <p class='landing-block3-content-subtitle'>
+                Any one can use it, from marketing to maintenance
+              </p>
+            </div>
+            <div class='landing-block3-tile'>
+              <div class='landing-block3-content-img4'></div>
+              <p class='landing-block3-content-title'>
+                Take Back Your Time
+              </p>
+              <p class='landing-block3-content-subtitle'>
+                Automation helps you focus on what's important
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='whoweserve' class='landing-block4'>
+        <p class='pink-title'>
+          OUR SOLUTIONS
+        </p>
+        <p class='landing-block2-title'>
+          Who we serve
+        </p>
+        <p class='landing-block4-subtitle'>
+          Flair is a brand new way to advertise your communities and look great doing it. Anyone can use our product-from marketing to maintenance
+        </p>
+        <div class='landing-block4-content'>
+          <div class='landing-block4-content-left'>
+            <div class='landing-block4-content-block'>
+              <img
+                src='./src/images/marketingteams.svg'
+                alt=''
+                class='landing-block4-content-block-img'
+              />
+              <div>
+                <p class='landing-block4-block-title'>
+                  Marketing Teams
+                </p>
+                <p class='landing-block4-block-subtitle'>
+                  For the in-house marketer that wants to save time and move quickly
+                </p>
+              </div>
+            </div>
+            <div class='landing-block4-content-block'>
+              <img
+                src='./src/images/onsiteteams.svg'
+                alt=''
+                class='landing-block4-content-block-img'
+              />
+              <div>
+                <p class='landing-block4-block-title'>
+                  On-Site Teams
+                </p>
+                <p class='landing-block4-block-subtitle'>
+                  For on-site teams that need traffic now but don't have the skills to run campaigns on their own
+                </p>
+              </div>
+            </div>
+            <div class='landing-block4-content-block'>
+              <img
+                src='./src/images/operations.svg'
+                alt=''
+                class='landing-block4-content-block-img'
+              />
+              <div>
+                <p class='landing-block4-block-title'>
+                  Operations
+                </p>
+                <p class='landing-block4-block-subtitle'>
+                  For the operations team that doesn't have a marketing person, but still wants to own the process
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            src='./src/images/landing-block4-card.png'
+            alt=''
+            class='landing-block4-card-img'
+          />
+        </div>
+      </div>
+      <div class='landing-block5-container'>
+        <div class='landing-block5'>
+          <p class='landing-block5-title'>
+            <span class='landing-block5-orange-underline' style='background-image: url("./src/images/landing-decor6.svg")'>
+              Request access </span> to our private beta
+          </p>
+          <p class='landing-block5-subtitle'>
+            We're launching to the world soon! 
+            Meanwhile, we're still working out the kinks. 
+            Went to help us get ready for prime time? 
+            Request assess to our beta and we'll reach out if you're the right fit.
+          </p>
+          <Link to='#'>
+            <button class='landing-block5-btn'>
+              Join beta
+            </button>
+          </Link>
+          <img
+            src='./src/images/landing-decor4.svg'
+            alt=''
+            class='landing-block5-decor4'
+          />
+          <img
+            src='./src/images/landing-block5-decor3.svg'
+            alt=''
+            class='landing-block5-decor3'
+          />
+        </div>
+      </div>
+      <div id='getintouch' class='landing-footer'>
+        <div class='landing-footer-body'>
+          <div>
+            <p class='landing-footer-title'>
+              Flair
+            </p>
+            <p class='landing-footer-subtitle'>
+              We are a team of passionate marketers, developers, and strategists who love to geek out over multifamily technology
+            </p>
+          </div>
+          <div>
+            <p class='landing-footer-aboutus-header'>
+              About us
+            </p>
+            <div class='landing-footer-aboutus-body'>
+              <div class='landing-footer-aboutus-block1'>
+                <a class='landing-footer-aboutus-item'>
+                  About
+                </a>
+                <a href='#howitworks' class='landing-footer-aboutus-item'>
+                  How it works
+                </a>
+                <a href='#features' class='landing-footer-aboutus-item'>
+                  Features
+                </a>
+              </div>
+              <div class='landing-footer-aboutus-block2'>
+                <a href='#whoweareserve' class='landing-footer-aboutus-item'>
+                  Who we serve
+                </a>
+                <a href='#getintouch' class='landing-footer-aboutus-item'>
+                  Get in touch
+                </a>
+              </div>
+            </div>
+          </div>
+          <div style='position: relative'>
+            <p class='landing-footer-aboutus-header'>
+              Get project updates
+            </p>
+            <input
+              type='email'
+              placeholder='Enter email address'
+              class='landing-footer-input'
+            />
+            <button
+              class='landing-footer-mailto-btn'  
+            >
+            </button>
+          </div>
+        </div>
+        <hr class='landing-footer-hr' />
+        <div class='landing-footer-txt'>
+          <div class='landing-footer-txt-left'>
+            <p class='landing-footer-left-txt'>
+              Privacy policy
+            </p>
+            <p class='landing-footer-left-txt'>
+              Terms and Conditions
+            </p>
+          </div>
+          <p class='landing-footer-right-txt'>
+            © 2022, All Rights Reserved
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
