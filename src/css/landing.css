@@ -395,8 +395,8 @@ body {
   background-color: white;
   margin-bottom: 40px;
   padding: 40px;
-  width: 290px;
-  height: 320px;
+  width: 210px;
+  height: 240px;
   cursor: pointer;
 }
 
@@ -613,14 +613,14 @@ body {
 }
 
 .landing-footer-hr {
-  height: 2px;
+  /* height: 2px; */
   color: white;
   opacity: 0.2;
 }
 
 .landing-footer-txt {
   color: white;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
