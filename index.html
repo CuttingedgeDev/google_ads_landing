@@ -8,7 +8,6 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
 <html>
   <head>
     <link rel='stylesheet' href='./src/css/landing.css'>
-    <script src="landing.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -42,6 +41,16 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
               Join beta
             </button>
           </Link>
+        </div>
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
         </div>
         <div class='burger-button' onclick='openNav()'>&#9776;</div>
       </div>
@@ -389,4 +398,5 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
 
     </div>
   </body>
+  <script src= "landing.js"></script>
 </html>
