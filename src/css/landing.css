@@ -34,30 +34,35 @@ body {
 }
 
 .overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
+  margin-top: 100px;
+  /* width: 100%; */
   text-align: center;
-  margin-top: 30px;
 }
 
 .overlay a {
-  padding: 8px;
   text-decoration: none;
-  font-size: 36px;
-  color: #818181;
+  font-size: 20px;
   display: block;
   transition: 0.3s;
+  color: white;
+  margin-bottom: 36px;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #687bfe;
+}
+
+.landing-burgermenu-hr {
+  color: white;
+  opacity: 0.2;
+  width: calc(100vw - 160px);
+  margin-top: 80px;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 5px;
-  right: 33px;
+  top: 10px;
+  right: 40px;
   font-size: 48px;
 }
 
@@ -68,6 +73,23 @@ body {
   display: none;
   margin-right: 40px;
   margin-bottom: 5px;
+}
+
+.landing-burger-logo-txt {
+  position: relative;
+  left: 80px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 130%;
+  color: white;
+}
+
+.landing-burger-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .landing-header {
@@ -1122,6 +1144,10 @@ body {
     right: 35px;
   } */
 
+  #landing-header-btn-group {
+    display: none;
+  }
+
   .landing-header-btn-group {
     padding-right: 0px;
     display: flex;
@@ -1134,11 +1160,19 @@ body {
   }
 
   .landing-login-btn {
-    display: none;
+    order: 2;
+    margin-right: 0px;
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
   }
 
   .landing-join-btn {
-    display: none;
+    order: 1;
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 50px;
   }
 
   .burgermenulanding-container {
@@ -1490,10 +1524,6 @@ body {
   .landing-block1-learn-btn {
     width: 160px;
     height: 50px;
-  }
-
-  .landing-menu {
-    display: none;
   }
 
   .landing-block1-card {

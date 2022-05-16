@@ -30,7 +30,7 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
             Get in touch
           </a>
         </div>
-        <div class='landing-header-btn-group'>
+        <div class='landing-header-btn-group' id="landing-header-btn-group">
           <Link to='/login'>
             <button class='landing-login-btn'>
               Log in
@@ -44,12 +44,28 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
         </div>
 
         <div id="landingBurger" class="overlay">
+          <p class="landing-burger-logo-txt">Flair</p>
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+          <div class="landing-burger-body">
+            <div class="overlay-content">
+              <a href="#howitworks" onclick="closeNav()">How it works</a>
+              <a href="#features" onclick="closeNav()">Features</a>
+              <a href="#whoweserve" onclick="closeNav()">Who we serve</a>
+              <a href="#getintouch" onclick="closeNav()">Get in touch</a>
+            </div>
+            <hr class="landing-burgermenu-hr">
+            <div class='landing-header-btn-group' id="landing-burger-btn-group">
+              <Link to='/login'>
+                <button class='landing-login-btn'>
+                  Log in
+                </button>
+              </Link>
+              <Link to='#'>
+                <button class='landing-join-btn'>
+                  Join beta
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
         <div class='burger-button' onclick='openNav()'>&#9776;</div>
