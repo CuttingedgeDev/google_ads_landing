@@ -596,16 +596,16 @@ p {
 }
 
 .landing-footer-input {
+  box-sizing: border-box;
   width: 300px;
   height: 48px;
   padding-left: 15px;
   padding-top: 0px;
   padding-bottom: 0px;
   border-radius: 6px;
-  border: none;
   outline: none;
   background: white;
-  /* border: 1.75px solid transparent !important; */
+  border: 1.75px solid transparent !important;
 }
 
 .landing-footer-input:focus {
@@ -614,7 +614,7 @@ p {
 
 .landing-footer-mailto-btn {
   position: absolute;
-  right: 0px;
+  right: -1px;
   bottom: 0px;
   height: 48px;
   width: 50px;
@@ -622,8 +622,8 @@ p {
   outline: none;
   background: url('landing-footer-arrow.png');
   background-size: cover;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   cursor: pointer;
 }
 
@@ -670,13 +670,14 @@ p {
   position: absolute;
   right: 40px;
   top: 40px;
-  width: 1000px;
+  width: 1440px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 72px 220px 100px 220px;
+  box-sizing: border-box;
 }
 
 .landing-block5-title {
@@ -770,7 +771,7 @@ p {
   }
 
   .landing-block5 {
-    width: 840px;
+    width: 1280px;
   }
 }
 
@@ -813,7 +814,7 @@ p {
   }
   
   .landing-block5 {
-    width: 730px;
+    width: 1170px;
   }
 
   .landing-footer {
@@ -909,12 +910,9 @@ p {
     right: -320px;
   }
 
-  .landing-footer-aboutus-block1 {
-    margin-right: 77px;
-  }
-
   .landing-block4 {
     padding: 120px 80px;
+    padding-bottom: 80px;
   }
 
   .landing-block4-card-img {
@@ -944,11 +942,15 @@ p {
   .landing-block5 {
     background: transparent;
     position: static;
-    width: calc(100% - 440px);
+    width: 100%;
   }
 
   .landing-footer {
-    padding: 120px 80px 10px 80px;
+    padding: 80px 80px 10px 80px;
+  }
+
+  .landing-footer-aboutus-block1 {
+    margin-right: 77px;
   }
 }
 
@@ -1018,17 +1020,16 @@ p {
     width: 520px;
   }
 
+  .landing-block5-subtitle {
+    margin-bottom: 50px;
+  }
+
   .landing-footer-subtitle {
     max-width: 270px;
   }
 
   .landing-footer-aboutus-block1 {
     margin-right: 60px;
-  }
-
-
-  .landing-block5-subtitle {
-    margin-bottom: 50px;
   }
 }
 
@@ -1041,7 +1042,6 @@ p {
 
   .landing-block5 {
     padding: 72px 180px 100px 180px;
-    width: calc(100% - 360px);
   }
 
   .landing-block5-decor3 {
