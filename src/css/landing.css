@@ -88,7 +88,7 @@ body {
 .landing-burger-body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -1161,7 +1161,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-top: 100px;
-    position: fixed;
     bottom: 60px;
   }
 
@@ -1891,6 +1890,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .landing-footer-left-txt {
+    margin-bottom: 10px;
   }
 }
 
