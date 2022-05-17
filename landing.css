@@ -1,11 +1,11 @@
 @font-face {
   font-family: PublicSansExtraBold;
-  src: url(PublicSans-ExtraBold.ttf);
+  src: url(fonts/PublicSans-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: PublicSansRegular;
-  src: url(PublicSans-Regular.ttf);
+  src: url(fonts/PublicSans-Regular.ttf);
 }
 
 html {
@@ -251,10 +251,6 @@ body {
   margin-bottom: 48px;
 }
 
-.landing-block1-btn-group {
-
-}
-
 .landing-block1-join-btn {
   color: white;
   outline: none;
@@ -497,41 +493,41 @@ body {
 .landing-block3-content-img1 {
   width: 56px;
   height: 56px;
-  background: url('landing-block3-tile1-img.svg');
+  background: url('images/landing-block3-tile1-img.svg');
 }
 
 .landing-block3-content-img2 {
   width: 56px;
   height: 56px;
-  background: url('landing-block3-tile2-img.svg');
+  background: url('images/landing-block3-tile2-img.svg');
 }
 
 .landing-block3-content-img3 {
   width: 56px;
   height: 56px;
-  background: url('landing-block3-tile3-img.svg');
+  background: url('images/landing-block3-tile3-img.svg');
 }
 
 .landing-block3-content-img4 {
   width: 56px;
   height: 56px;
-  background: url('landing-block3-tile4-img.svg');
+  background: url('images/landing-block3-tile4-img.svg');
 }
 
 .landing-block3-tile:hover .landing-block3-content-img1 {
-  background: url('landing-block3-tile1-img-hover.svg');
+  background: url('images/landing-block3-tile1-img-hover.svg');
 }
 
 .landing-block3-tile:hover .landing-block3-content-img2 {
-  background: url('landing-block3-tile2-img-hover.svg');
+  background: url('images/landing-block3-tile2-img-hover.svg');
 }
 
 .landing-block3-tile:hover .landing-block3-content-img3 {
-  background: url('landing-block3-tile3-img-hover.svg');
+  background: url('images/landing-block3-tile3-img-hover.svg');
 }
 
 .landing-block3-tile:hover .landing-block3-content-img4 {
-  background: url('landing-block3-tile4-img-hover.svg');
+  background: url('images/landing-block3-tile4-img-hover.svg');
 }
 
 .landing-block3-content-title {
@@ -699,7 +695,7 @@ body {
   width: 50px;
   border: none;
   outline: none;
-  background: url('landing-footer-arrow.png');
+  background: url('images/landing-footer-arrow.png');
   background-size: cover;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -715,7 +711,6 @@ body {
 
 .landing-footer-txt {
   color: white;
-  /* margin-top: 20px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1140,16 +1135,6 @@ body {
     display: block;
   }
 
-  /* .overlay a {
-    font-size: 20px
-  }
-
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  } */
-
   #landing-header-btn-group {
     display: none;
   }
@@ -1208,10 +1193,6 @@ body {
     width: 569px;
   }
 
-  /* .landing-block4 {
-    padding: 80px 60px 280px 60px;
-  } */
-
   .landing-block2-img1 {
     width: 569px;
   }
@@ -1245,7 +1226,6 @@ body {
 
   .landing-block3-content {
     margin-bottom: 0px;
-    /* padding-bottom: 0px; */
     width: auto;
     height: auto;
     order: 1;
@@ -1495,10 +1475,6 @@ body {
 
 @media screen and (max-width: 770px) {
 
-  /* .landing-block1 {
-    padding: 40px 80px;
-  } */
-
   .landing-title {
     max-width: 492px;
   }
@@ -1553,8 +1529,6 @@ body {
 
   .landing-decor3 {
     width: 150px;
-    /* top: 378px; */
-    /* left: 100px; */
     display: block;
   }
 
@@ -1588,25 +1562,25 @@ body {
   .landing-block3-tile:hover .landing-block3-content-img1 {
     width: 56px;
     height: 56px;
-    background: url('landing-block3-tile1-img.svg');
+    background: url('images/landing-block3-tile1-img.svg');
   }
   
   .landing-block3-tile:hover .landing-block3-content-img2 {
     width: 56px;
     height: 56px;
-    background: url('landing-block3-tile2-img.svg');
+    background: url('images/landing-block3-tile2-img.svg');
   }
   
   .landing-block3-tile:hover .landing-block3-content-img3 {
     width: 56px;
     height: 56px;
-    background: url('landing-block3-tile3-img.svg');
+    background: url('images/landing-block3-tile3-img.svg');
   }
   
   .landing-block3-tile:hover .landing-block3-content-img4 {
     width: 56px;
     height: 56px;
-    background: url('landing-block3-tile4-img.svg');
+    background: url('images/landing-block3-tile4-img.svg');
   }
 
   .landing-block3-tile:hover .landing-block3-content-title {
@@ -1731,6 +1705,14 @@ body {
 
 
 @media screen and (max-width: 576px) {
+
+  .landing-logo-txt {
+    padding-left: 40px;
+  }
+
+  .landing-burger-logo-txt {
+    left: 40px;
+  }
 
   .landing-block1 {
     padding-left: 40px;
@@ -1867,10 +1849,6 @@ body {
 
   .landing-decor3 {
     left: 0px;
-  }
-
-  .landing-decor5 {
-    /* left: 182px; */
   }
 
   .landing-decor4 {
