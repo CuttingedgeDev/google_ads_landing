@@ -412,8 +412,16 @@ import { UsersnapProvider } from '../../usersnap/UsersnapContext' -->
           </p>
         </div>
       </div>
-
     </div>
+    <script>
+      window.onUsersnapCXLoad = function(api) {
+        api.init();
+      }
+      var script = document.createElement('script');
+      script.defer = 1;
+      script.src = 'https://widget.usersnap.com/global/load/128018ff-68ba-49fb-83e6-79b6f33221b2?onload=onUsersnapCXLoad';
+      document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
   </body>
   <script src= "src/js/landing.js"></script>
 </html>
