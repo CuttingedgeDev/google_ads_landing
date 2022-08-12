@@ -1,54 +1,46 @@
 
 
 h1, h4, h5, p, a, blockquote, strong, span, li, table{
-    font-family: 'Public Sans';
-    width:970px;
-    margin-left:100px;
-    font-weight: 400;
-    
+  font-family: 'Public Sans';
+  width:77%;
+  margin-left:7%;
+  font-weight: 400;
+  
 }
 p{
-  font-size: 20;
+font-size: 20;
 }
 li{
-  font-size: 18.5px;
+font-size: 18.5px;
+width: 77%;
 }
-  
+
 .intro{
-  height: 92px;
-  font-style: normal;
-  color: #222A3A;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
+color: #222A3A;
+
 }
 h4{
-  
-  height: 47px;
+
+height: 47px;
 font-family: 'Public Sans';
 font-style: normal;
 font-weight: 700;
 font-size:27px;
-line-height: 130%;
+
 color: #222A3A;
 flex: none;
 order: 1;
 flex-grow: 0;
-margin-bottom:-10px;
+margin-bottom:-1%;
 }
 h5{
-  font-size: 24px;
-  font-weight:600;
+font-size: 24px;
+font-weight:600;
 }
 
 td, th{
-  border: 1px dashed #F2F5F9;
-  background-color: #FFFFFF;
-  font-size: 14px;
-}
-th{
-  line-height: 16px;
-}
-td{
-  line-height:15.6px;
+border: 1px dashed #F2F5F9;
+background-color: #FFFFFF;
+font-size: 14px;
 }
