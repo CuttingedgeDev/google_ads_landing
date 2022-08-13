@@ -1,0 +1,16 @@
+p, h1, h4, h5, span{
+    margin-left:7%;
+    max-width:77%;
+    font-family:'Public Sans';
+}
+
+h4{
+    font-size:27px;
+}
+h5{
+    font-size: 24px;
+}
+p, span{
+    font-size: '20px';
+}
+
