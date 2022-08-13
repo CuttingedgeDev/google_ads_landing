@@ -651,7 +651,7 @@ body {
 
 .landing-footer-aboutus-body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -1835,3 +1835,10 @@ body {
     width: calc(100vw - 80px);
   }
 }
+
+
+
+
+
+
+
