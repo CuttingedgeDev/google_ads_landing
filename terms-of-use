@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- HTML Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="content-type" content="text/html" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <!-- Google / Search Engine Tags -->
+    <meta
+      itemprop="name"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      itemprop="description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      itemprop="image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.getflair.io" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      property="og:description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      property="og:image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      name="twitter:description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Meta Tags Generated via http://heymeta.com -->
+
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="landing.css" />
-    <title>Apartment PPC Automation 2022 | Flair</title>
+    <title>Your Resident Acquisition Platform | Flair</title>
+
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
