@@ -1,0 +1,72 @@
+@font-face {
+    font-family: PublicSans-Black;
+    src: url(static/PublicSans-Black.ttf);
+}
+@font-face {
+    font-family: PublicSans-BlackItalic;
+    src: url(static/PublicSans-BlackItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Bold;
+    src: url(static/PublicSans-Bold.ttf);
+}
+@font-face {
+    font-family: PublicSans-BoldItalic;
+    src: url(static/PublicSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-ExtraBold;
+    src: url(static/PublicSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: PublicSans-ExtraBoldItalic;
+    src: url(static/PublicSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-ExtraLight;
+    src: url(static/PublicSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: PublicSans-ExtraLightItalic;
+    src: url(static/PublicSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Italic;
+    src: url(static/PublicSans-Italic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Light;
+    src: url(static/PublicSans-Light.ttf);
+}
+@font-face {
+    font-family: PublicSans-LightItalic;
+    src: url(static/PublicSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Medium;
+    src: url(static/PublicSans-Medium.ttf);
+}
+@font-face {
+    font-family: PublicSans-MediumItalic;
+    src: url(static/PublicSans-MediumItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Regular;
+    src: url(static/PublicSans-Regular.ttf);
+}
+@font-face {
+    font-family: PublicSans-SemiBold;
+    src: url(static/PublicSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: PublicSans-SemiBoldItalic;
+    src: url(static/PublicSans-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: PublicSans-Thin;
+    src: url(static/PublicSans-Thin.ttf);
+}
+@font-face {
+    font-family: PublicSans-ThinItalic;
+    src: url(static/PublicSans-ThinItalic.ttf);
+}
