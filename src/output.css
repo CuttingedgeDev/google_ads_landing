@@ -589,6 +589,14 @@ video {
   left: -270px;
 }
 
+.-top-8 {
+  top: -2rem;
+}
+
+.-right-\[14rem\] {
+  right: -14rem;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -966,6 +974,21 @@ video {
   padding-right: 39px;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-\[13px\] {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.px-\[74px\] {
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1094,6 +1117,26 @@ video {
   padding-top: 1.5rem;
 }
 
+.pt-\[104px\] {
+  padding-top: 104px;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pb-\[48px\] {
+  padding-bottom: 48px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1209,6 +1252,10 @@ video {
 
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
 }
 
 .text-\[\#B7BCC8\] {
@@ -1340,6 +1387,10 @@ video {
     width: 29%;
   }
 
+  .md\:w-\[57\%\] {
+    width: 57%;
+  }
+
   .md\:max-w-\[500px\] {
     max-width: 500px;
   }
@@ -1380,9 +1431,23 @@ video {
     gap: 0px;
   }
 
+  .md\:gap-28 {
+    gap: 7rem;
+  }
+
   .md\:bg-\[\#B0C5DE\] {
     --tw-bg-opacity: 1;
     background-color: rgb(176 197 222 / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-\[\#161D37\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 29 55 / var(--tw-bg-opacity));
+  }
+
+  .md\:bg-\[\#A8B1EF\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(168 177 239 / var(--tw-bg-opacity));
   }
 
   .md\:p-5 {
@@ -1412,6 +1477,21 @@ video {
   .md\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+  }
+
+  .md\:py-\[68px\] {
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+
+  .md\:px-\[70px\] {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .md\:px-\[55px\] {
+    padding-left: 55px;
+    padding-right: 55px;
   }
 
   .md\:pl-20 {
@@ -1462,6 +1542,22 @@ video {
     padding-top: 10.3rem;
   }
 
+  .md\:pt-\[140px\] {
+    padding-top: 140px;
+  }
+
+  .md\:pb-36 {
+    padding-bottom: 9rem;
+  }
+
+  .md\:pb-\[6\.25rem\] {
+    padding-bottom: 6.25rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -1483,8 +1579,17 @@ video {
     font-size: 32px;
   }
 
+  .md\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
   .md\:leading-10 {
     line-height: 2.5rem;
+  }
+
+  .md\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
