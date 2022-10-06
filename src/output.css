@@ -830,6 +830,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-y-12 {
   row-gap: 3rem;
 }
@@ -1232,6 +1236,18 @@ video {
   padding-right: 1rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1353,6 +1369,10 @@ video {
   line-height: 30px;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
 .text-\[\#B7BCC8\] {
   --tw-text-opacity: 1;
   color: rgb(183 188 200 / var(--tw-text-opacity));
@@ -1381,6 +1401,11 @@ video {
 .text-\[\#353E4F\] {
   --tw-text-opacity: 1;
   color: rgb(53 62 79 / var(--tw-text-opacity));
+}
+
+.text-\[\#687BFE\] {
+  --tw-text-opacity: 1;
+  color: rgb(104 123 254 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -1454,6 +1479,10 @@ video {
     order: 2;
   }
 
+  .md\:m-auto {
+    margin: auto;
+  }
+
   .md\:mb-\[72px\] {
     margin-bottom: 72px;
   }
@@ -1504,6 +1533,22 @@ video {
 
   .md\:w-\[36rem\] {
     width: 36rem;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:w-\[401px\] {
+    width: 401px;
   }
 
   .md\:max-w-\[500px\] {
@@ -1685,6 +1730,18 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:pt-\[5\.75rem\] {
+    padding-top: 5.75rem;
+  }
+
+  .md\:pb-\[8\.75rem\] {
+    padding-bottom: 8.75rem;
+  }
+
+  .md\:pb-\[6\.5rem\] {
+    padding-bottom: 6.5rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -1717,6 +1774,10 @@ video {
 
   .md\:leading-10 {
     line-height: 2.5rem;
+  }
+
+  .md\:leading-\[3\.25rem\] {
+    line-height: 3.25rem;
   }
 
   .md\:text-white {
@@ -1817,6 +1878,22 @@ video {
   .lg\:pr-11 {
     padding-right: 2.75rem;
   }
+
+  .lg\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .lg\:pr-14 {
+    padding-right: 3.5rem;
+  }
+
+  .lg\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .lg\:pl-14 {
+    padding-left: 3.5rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1835,5 +1912,13 @@ video {
 
   .xl\:pr-\[4\.375rem\] {
     padding-right: 4.375rem;
+  }
+
+  .xl\:pl-\[4\.375rem\] {
+    padding-left: 4.375rem;
+  }
+
+  .xl\:pr-\[6\.875rem\] {
+    padding-right: 6.875rem;
   }
 }
