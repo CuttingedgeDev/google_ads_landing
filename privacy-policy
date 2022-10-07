@@ -58,6 +58,47 @@
 
     <!-- Google Tag Manager -->
     <script>
+      window.dataLayer = window.dataLayer || [];
+      var userData = JSON.parse(localStorage.getItem("userInfo"));
+
+      if (userData && userData["name"] != "") {
+        if (userData.first_name != "") {
+          var userName = userData.first_name + " " + userData.last_name;
+        } else {
+          userName = userData.name;
+        }
+        window.dataLayer.push({
+          event: "user",
+          logged_in: true,
+          email: userData.email,
+          userId: userData.username,
+          created_at: "",
+          name: userName,
+        });
+      } else {
+        window.dataLayer.push({
+          event: "user",
+          logged_in: false,
+          userId: false,
+          email: false,
+          name: false,
+          created_at: "",
+        });
+        deleteAllCookies();
+      }
+
+      function deleteAllCookies() {
+        var cookies = document.cookie.split(";");
+
+        for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i];
+          var eqPos = cookie.indexOf("=");
+          var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+          document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+      }
+    </script>
+    <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -130,7 +171,7 @@
           <a class="landing-menu" href="./#getintouch">Get in touch</a>
         </div>
         <div class="landing-header-btn-group" id="landing-header-btn-group">
-          <a href="https://app.getflair.io/login">
+          <a href="https://api.getflair.io/api/users/redirect_auth0_login_page">
             <button class="landing-login-btn">Log in</button>
           </a>
           <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois">
@@ -151,7 +192,9 @@
             </div>
             <hr class="landing-burgermenu-hr" />
             <div class="landing-header-btn-group" id="landing-burger-btn-group">
-              <a href="https://app.getflair.io/login">
+              <a
+                href="https://api.getflair.io/api/users/redirect_auth0_login_page"
+              >
                 <button class="landing-login-btn">Log in</button>
               </a>
               <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois">
