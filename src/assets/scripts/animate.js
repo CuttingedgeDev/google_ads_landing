@@ -13,7 +13,7 @@
 // start Mobile menu
 function openNav() {
     document.getElementById("navBar").style.display = "block";
-    document.getElementById("mobileMenu").style.width = "w-full";
+    document.getElementById("mobileMenu").style.width = "100%";
     document.getElementById("mainMenu").style.display = "none";
     // document.getElementById("navMenu").style.display = "block";
 
@@ -21,7 +21,7 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("navBar").style.display = "none";
-    document.getElementById("mobileMenu").style.width = "w-0";
+    document.getElementById("mobileMenu").style.width = "0%";
     document.getElementById("mainMenu").style.display = "block";
 }
 // End Mobile menu
