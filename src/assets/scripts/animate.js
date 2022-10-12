@@ -82,7 +82,17 @@ class Accordion {
 						i.triggerEl.classList.add(...this._options.inactiveClasses.split(" "))
 						i.targetEl.classList.remove(...this._options.targetActiveClasses.split(" "))
 					} 
-					i.targetEl.classList.add('hidden')
+					// i.targetEl.classList.add('hidden')
+					
+					const parent = document.querySelector(i.id);
+					const div = parent.parentNode;
+					// div.classList.remove('h-full')
+					// div.classList.add('h-0')
+					const divId = ('#' + div.id)
+					console.log(divId)
+					// document.getElementById(div.id).style.height= '0%'
+					document.getElementById(i.id.split('#')[1]).style.height = '0%';
+
 					i.triggerEl.setAttribute('aria-expanded', false)
 					i.active = false
 					// rotate icon if set
@@ -108,7 +118,16 @@ class Accordion {
 			item.targetEl.classList.add(...this._options.targetActiveClasses.split(" "))
 		}
 		item.triggerEl.setAttribute('aria-expanded', true)
-		item.targetEl.classList.remove('hidden')
+		// item.targetEl.classList.remove('hidden')
+		
+		const parent = document.querySelector(id);
+		const div = parent.parentNode;
+		// div.classList.add('h-full')
+		// div.classList.remove('h-0')
+		const divId = ('#' + div.id)
+		console.log(divId)
+		// document.getElementById(div.id).style.height= '100%'
+		document.getElementById(id.split('#')[1]).style.height = '100%';
 		item.active = true
         console.log('open')
         console.log(id)
@@ -152,7 +171,18 @@ class Accordion {
 			item.triggerEl.classList.add(...this._options.inactiveClasses.split(" "))
 			item.targetEl.classList.remove(...this._options.targetActiveClasses.split(" "))
 		}
-		item.targetEl.classList.add('hidden')
+		// item.targetEl.classList.add('hidden')
+
+		const parent = document.querySelector(id);
+		const div = parent.parentNode;
+		const divId = ('#' + div.id)
+		console.log(divId)
+		// document.getElementById(div.id).style.height= '0%'
+		// div.classList.remove('h-full')
+		// div.classList.add('h-0')
+		document.getElementById(id.split('#')[1]).style.height = '0%';
+		
+
 		item.triggerEl.setAttribute('aria-expanded', false)
 		item.active = false
 
