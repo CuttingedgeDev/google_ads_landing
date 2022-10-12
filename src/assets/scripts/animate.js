@@ -92,6 +92,7 @@ class Accordion {
 					console.log(divId)
 					// document.getElementById(div.id).style.height= '0%'
 					document.getElementById(i.id.split('#')[1]).style.height = '0%';
+					document.getElementById(i.id.split('#')[1]).style.position = 'fixed';
 
 					i.triggerEl.setAttribute('aria-expanded', false)
 					i.active = false
@@ -128,6 +129,7 @@ class Accordion {
 		console.log(divId)
 		// document.getElementById(div.id).style.height= '100%'
 		document.getElementById(id.split('#')[1]).style.height = '100%';
+		document.getElementById(id.split('#')[1]).style.position = 'relative';
 		item.active = true
         console.log('open')
         console.log(id)
@@ -181,6 +183,7 @@ class Accordion {
 		// div.classList.remove('h-full')
 		// div.classList.add('h-0')
 		document.getElementById(id.split('#')[1]).style.height = '0%';
+		document.getElementById(id.split('#')[1]).style.position = 'fixed';
 		
 
 		item.triggerEl.setAttribute('aria-expanded', false)
