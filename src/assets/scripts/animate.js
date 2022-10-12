@@ -81,7 +81,12 @@ class Accordion {
 						i.triggerEl.classList.remove(...this._options.activeClasses.split(" "))
 						i.triggerEl.classList.add(...this._options.inactiveClasses.split(" "))
 						i.targetEl.classList.remove(...this._options.targetActiveClasses.split(" "))
-					} 
+						document.getElementById(i.id.split('#')[1]).style.position = 'fixed';
+					} else if (key === '#mobile_nav_accordion') {
+						document.getElementById(i.id.split('#')[1]).style.position = 'fixed';
+					} else {
+						document.getElementById(i.id.split('#')[1]).style.position = 'relative';
+					}
 					// i.targetEl.classList.add('hidden')
 					
 					const parent = document.querySelector(i.id);
@@ -91,8 +96,7 @@ class Accordion {
 					const divId = ('#' + div.id)
 					console.log(divId)
 					// document.getElementById(div.id).style.height= '0%'
-					document.getElementById(i.id.split('#')[1]).style.height = '0%';
-					document.getElementById(i.id.split('#')[1]).style.position = 'fixed';
+					document.getElementById(i.id.split('#')[1]).style.height = '0';
 
 					i.triggerEl.setAttribute('aria-expanded', false)
 					i.active = false
@@ -128,8 +132,8 @@ class Accordion {
 		const divId = ('#' + div.id)
 		console.log(divId)
 		// document.getElementById(div.id).style.height= '100%'
-		document.getElementById(id.split('#')[1]).style.height = '100%';
 		document.getElementById(id.split('#')[1]).style.position = 'relative';
+		document.getElementById(id.split('#')[1]).style.height = '100%';
 		item.active = true
         console.log('open')
         console.log(id)
@@ -172,6 +176,11 @@ class Accordion {
 			item.triggerEl.classList.remove(...this._options.activeClasses.split(" "))
 			item.triggerEl.classList.add(...this._options.inactiveClasses.split(" "))
 			item.targetEl.classList.remove(...this._options.targetActiveClasses.split(" "))
+			document.getElementById(id.split('#')[1]).style.position = 'fixed';
+		} else if (key === '#mobile_nav_accordion') {
+			document.getElementById(id.split('#')[1]).style.position = 'fixed';
+		} else {
+			document.getElementById(id.split('#')[1]).style.position = 'relative';
 		}
 		// item.targetEl.classList.add('hidden')
 
@@ -182,8 +191,8 @@ class Accordion {
 		// document.getElementById(div.id).style.height= '0%'
 		// div.classList.remove('h-full')
 		// div.classList.add('h-0')
-		document.getElementById(id.split('#')[1]).style.height = '0%';
-		document.getElementById(id.split('#')[1]).style.position = 'fixed';
+
+		document.getElementById(id.split('#')[1]).style.height = '0';
 		
 
 		item.triggerEl.setAttribute('aria-expanded', false)
