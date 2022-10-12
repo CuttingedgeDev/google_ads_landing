@@ -665,6 +665,10 @@ video {
   top: 720px;
 }
 
+.top-\[92px\] {
+  top: 92px;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -825,6 +829,10 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-\[92px\] {
+  height: 92px;
 }
 
 .max-h-0 {

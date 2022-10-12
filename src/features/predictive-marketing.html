@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/fonts/font.css">
+    <link href="../output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/styles/custom.css">
+  </head>
+  <body>
+
+
+    <header class="">
+      
+      <nav id="mainMenu" class="z-10 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
+        <div class="wrap">
+          <div class="h-[92px] flex justify-between items-center">
+            <a href="../index.html" class="cursor-pointer lg:hidden">
+              <img src="../assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
+            </a>
+            <a href="../index.html" class="cursor-pointer hidden lg:flex">
+              <img src="../assets/images/icons/mobile_menu/logo_black.svg" alt="">
+            </a>
+            <a class="cursor-pointer lg:hidden" onclick="openNav()">
+              <img src="../assets/images/icons/mobile_menu/icon_mbile_menu.svg" alt="">
+            </a>
+            <ul class=" font-['PublicSans-Medium'] text-sm gap-10 items-center  hidden lg:flex">
+              <li>
+                <a href="../our_why.html" class="">Our Why</a>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 group-hover:text-[#687BFE] flex items-center">Features
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                      <p class="flex">
+                        <a href="../features/dynamic-pricing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                      <p class="flex">
+                        <a href="../features/predictive-marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                      <p class="flex">
+                        <a href="../features/flexibility.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 group-hover:text-[#687BFE] flex items-center">By Role
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                      <p class="flex">
+                        <a href="../by_role/marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                      <p class="flex">
+                        <a href="../by_role/operations.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                      <p class="flex">
+                        <a href="../by_role/ownership.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 group-hover:text-[#687BFE] flex items-center">Resourсes
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                      <p class="flex">
+                        <a href="../resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                      <p class="flex">
+                        <a href="../resources/case_studies.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                      <p class="flex">
+                        <a href="../resources/budget_calculator.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="../case_studies.html" class="">Case Studies</a>
+  
+              </li>
+            </ul>
+            <div class="font-['PublicSans-Bold'] text-sm gap-8 items-center hidden lg:flex">
+              <a href="#no" class="">Log in</a>
+              <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="px-7 py-3 bg-[#FF7F5F] text-white rounded hover:opacity-80">Let's Talk </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navBar" class="z-30 relative  bg-[#F5FAFF] w-full  lg:hidden hidden">
+        <nav class="fixed bg-[#F5FAFF] w-full">
+          <div class="w-[100%] pl-5 sm:pl-10 md:pl-20 pr-5 sm:pr-10 md:pr-20">
+            <div class="h-[64px] flex justify-between items-center">
+                <a href="../index.html" class="cursor-pointer">
+                  <img src="../assets/images/icons/mobile_menu/logo_black.svg" alt="">
+                </a>
+                <a class="cursor-pointer" onclick="closeNav()">
+                  <img src="../assets/images/icons/mobile_menu/mobile_menu_close.svg" alt="">
+                </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div id="mobileMenu" class="z-20  overflow-x-hidden fixed overflow-y-auto h-[100vh] w-0 right-0 pb-[52px] bg-[#F5FAFF] duration-500">
+        <div class="pt-[84px] pb-[26px] text-xl font-['PublicSans-Bold']  mobile_wrap mx-auto">
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="../our_why.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Our Why</p><img src="../assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+          <div id="mobile_nav_accordion-collapse" data-accordion="collapse">
+            <div id="menu_accordion_1" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-1" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-1" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-1">
+                  <span>Features</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-1" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-1">
+                <div class="mt-[18px] pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                    <p class="flex">
+                      <a href="../features/dynamic-pricing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                    <p class="flex">
+                      <a href="../features/predictive-marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                    <p class="flex">
+                      <a href="../features/flexibility.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_2" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-2" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-2" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-2">
+                  <span>By Role</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-2" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-2">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                    <p class="flex">
+                      <a href="../by_role/marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                    <p class="flex">
+                      <a href="../by_role/operations.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                    <p class="flex">
+                      <a href="../by_role/ownership.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_3" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-3" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-3" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-3">
+                  <span>Resources</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-3" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-3">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                    <p class="flex">
+                      <a href="../resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                    <p class="flex">
+                      <a href="../resources/case_studies.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                    <p class="flex">
+                      <a href="../resources/budget_calculator.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="../case_studies.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Case Studies</p><img src="../assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+        </div>
+        <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class=""><p class="text-center bg-[#FF7F5F] font-['PublicSans-Bold'] text-xl text-white py-3 rounded  hover:opacity-80 max-w-[330px] mx-auto">Let's Talk</p></a>
+        <p class="text-center pt-[18px] font-['PublicSans-Bold'] text-xl"><a href="#no" class="">Log in</a></p>
+      </div>
+    </header>
+
+
+
+    
+    <section id="main" class="relative md:static bg-[#161D37] h-screen pt-[92px] w-full">
+      <lottie-player src="../assets/images/dynamic pricing.json" background="#161D37"  speed="1" class="w-full h-full"  hover loop autoplay></lottie-player>
+    </section>
+
+
+
+    
+    <section id="contact" class="bg-[#161D37] pt-[137px] md:pt-[15.25rem] min-h-[664px] relative">
+      <div class="wrap pl-11">
+        <div class="w-[302px] sm:w-[550px] md:mr-0 md:ml-0 md:w-[640px] lg:w-[768px] xl:w-[1024px] dxl:w-[1280px] h-[241px]  md:h-[172px] xl:h-[192px] bg-[#e2e8fb] absolute -top-[241px] md:-top-[172px] xl:-top-[192px] right-[43%] sm:right-[50%] md:right-[45%] xl:right-[47%] translate-x-2/4 rounded-tl-md rounded-tr-md">
+          <div class="absolute right-[10px] top-[10px] md:right-[40px] md:top-[40px]">
+            <div class="w-[335px] sm:w-[550px] md:w-[640px] lg:w-[768px] xl:w-[1024px] dxl:w-[1280px] relative rounded-md flex flex-col md:flex-row items-center justify-between gap-11 bg-[#687bfe] px-5 lg:px-[3.5rem] xl:px-[6.875rem] py-12 md:pb-[3.75rem] md:pt-20">
+              <div class="text-white md:w-[50%] dxl:w-[630px]">
+                <h2 class="font-['PublicSans-ExtraBold'] text-[28px] lg:text-[30px] xl:text-[40px] leading-[3.25rem]">“I can’t believe we didn’t do this earlier.”</h2>
+                <p class="text-xl">- You, next Tuesday.</p>
+              </div>
+              <img src="../assets/images/home_img/Home_contact-arrow.svg" alt="" class="absolute rotate-[120deg] md:rotate-0 -top-[149px] md:top-[10%] left-0 sm:left-[30%] md:left-[20%] lg:left-[26%] xl:left-[33%] dxl:left-[45%] translate-x-1/2 scale-50 md:scale-75 xl:scale-100">
+              <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="pr-0 xl:pr-10 "><span class="bg-[#161D37] py-[13px] px-[55px] rounded-md font-['PublicSans-Bold'] cursor-pointer text-white  hover:opacity-80">Let’s talk</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="flex flex-wrap justify-between text-white pb-8 gap-9">
+          <div class="w-full xl:w-auto">
+            <ul class="w-[12rem]">
+              <li class="font-['PublicSans-ExtraBold'] text-xl pb-[15px]"><a class="cursor-pointer animoBorderLeftRight">Flair</a></li>
+              <li class="text-sm text-[#B7BCC8] pb-8">We are a team of passionate marketers, developers, and strategists who love to geek out over multifamily technology</li>
+              <li class="">
+                <a class="cursor-pointer">
+                  <img src="../assets/images/home_img/google_partner.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <div class="mt-9 bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem] xl:hidden"></div>
+          </div>
+          <!-- <div class="flex flex-wrap justify-between text-white gap-5 pb-8">
+          </div> -->
+          <ul class="w-[9.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Our Why</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Features</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Dynemic Pricing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Predictive Marketing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Flexibility</a></li>
+          </ul>
+          <ul class="w-[5.6rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">By Role</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Marketing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Operations</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Ownership</a></li>
+          </ul>
+          <ul class="w-[12.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Resources</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Building Blocks Newsletter</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Budget Calculator</a></li>
+          </ul>
+          <ul class="w-[18.125rem] xl:block ">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer">Get product updates</a></li>
+            <li class="flex relative items-center">
+              <input type="email" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2">
+              <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="../assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
+            </li>
+          </ul>
+
+        </div>
+        <div class="bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]"></div>
+        <div class="flex flex-wrap text-white justify-between py-10">
+          <div class="flex text-[#b9bbc3] gap-12">
+            <a class="cursor-pointer">Privacy Policy</a>
+            <a class="cursor-pointer">Terms and Conditions</a>
+          </div>
+          <p>© 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="../assets/scripts/animate.js"></script>
+    <!-- <script src="../assets/scripts/carousel.js"></script> -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
