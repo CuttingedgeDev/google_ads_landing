@@ -1020,6 +1020,10 @@ video {
   max-width: 510px;
 }
 
+.max-w-\[625px\] {
+  max-width: 625px;
+}
+
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -1225,6 +1229,10 @@ video {
 
 .rounded-\[4px\] {
   border-radius: 4px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-b-\[5px\] {
@@ -1601,6 +1609,11 @@ video {
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.px-\[42px\] {
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 .pb-8 {
@@ -2772,6 +2785,11 @@ video {
   .md\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .md\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .md\:pl-20 {
