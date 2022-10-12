@@ -14,7 +14,7 @@
       
       <nav id="mainMenu" class="z-10 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
         <div class="wrap">
-          <div class="h-[92px] flex justify-between items-center">
+          <div class="h-[64px] md:h-[92px] flex justify-between items-center">
             <a href="../index.html" class="cursor-pointer lg:hidden">
               <img src="../assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
             </a>
@@ -322,13 +322,56 @@
         <p class="text-center pt-[18px] font-['PublicSans-Bold'] text-xl"><a href="#no" class="">Log in</a></p>
       </div>
     </header>
-
-
-
     
-    <section id="main" class="relative md:static bg-[#161D37] h-screen pt-[92px] w-full">
-      <lottie-player src="../assets/images/dynamic pricing.json" background="#161D37"  speed="1" class="w-full h-full"  hover loop autoplay></lottie-player>
+    <section id="main" class="relative md:static bg-[#161D37] h-screen pt-[64px] md:pt-[92px] w-full">
+      <lottie-player src="../assets/images/dynamic pricing.json" background="#161D37"  speed="1" class="hidden md:block w-full h-full"  hover loop autoplay></lottie-player>
+      <div class="wrap block md:hidden">
+        <div class="">
+          <h1 class="pt-[112px] font-['PublicSans-Black'] text-white text-5xl leading-[62px] pb-6">Predictive Marketing for Multifamily </h1>
+          <p class="font-['PublicSans-Medium'] text-[#E9ECF1] text-base leading-5">Automatically flex your budget according to current & future availability.</p>
+        </div>
+      </div>
+      <img src="../assets/images/predictive_marketing/pre_market-main-arrow-mobile.svg" alt="" class="absolute z-1 flex md:hidden left-[50%] translate-x-[-50%] bottom-[70px]">
     </section>
+
+    <section class="py-20 md:py-40">
+      <div class="wrap">
+        <div class="flex flex-col md:flex-row gap-4 justify-between">
+          <div class="flex flex-col mx-auto">
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-tr-[5px] bg-white shadow-[0_20.303px_37.7056px rgba(183,188,200,0.11)]">
+              <p class="font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base bg-[#FF7F5F] bg-opacity-20 text-[#FF7F5F] uppercase rounded-md md:rounded-lg">before</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Beg ownership for more budget every time there’s a move-out</p>
+            </div>
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-b-[5px] bg-white border-t-[1px] border-[#b0c4de] border-opacity-50">
+              <p class=" font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base text-[#38D086] bg-[#38D086] bg-opacity-20 uppercase rounded-md md:rounded-lg">after</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Automatically adjust campaigns & keywords according to availability</p>
+            </div>
+          </div>
+          <div class="flex flex-col mx-auto">
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-tr-[5px] bg-white shadow-[0_20.303px_37.7056px rgba(183,188,200,0.11)]">
+              <p class=" font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base bg-[#FF7F5F] bg-opacity-20 text-[#FF7F5F] uppercase rounded-md md:rounded-lg">before</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Manually adjust whatever sources you can depending on availability</p>
+            </div>
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-b-[5px] bg-white border-t-[1px] border-[#b0c4de] border-opacity-50">
+              <p class=" font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base text-[#38D086] bg-[#38D086] bg-opacity-20 uppercase rounded-md md:rounded-lg">after</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Flex your budget according to property needs</p>
+            </div>
+          </div>
+          <div class="flex flex-col mx-auto">
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-tr-[5px] bg-white shadow-[0_20.303px_37.7056px rgba(183,188,200,0.11)]">
+              <p class=" font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base bg-[#FF7F5F] bg-opacity-20 text-[#FF7F5F] uppercase rounded-md md:rounded-lg">before</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Waste $$$ on advertising unavailable floor plans</p>
+            </div>
+            <div class="h-[147px] md:h-[200px] lg:h-[177px] xl:h-[147px] flex flex-col items-start max-w-[400px] p-5 md:p-6 rounded-b-[5px] bg-white border-t-[1px] border-[#b0c4de] border-opacity-50">
+              <p class=" font-['PublicSans-Black']  py-[10px] px-[10px] md:px-3 text-sm md:text-base text-[#38D086] bg-[#38D086] bg-opacity-20 uppercase rounded-md md:rounded-lg">after</p>
+              <p class=" pt-3 text-base leading-6 text-[#515868]">Never waste $$$ on advertising unavailable units</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
 
 
