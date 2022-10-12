@@ -2703,6 +2703,10 @@ video {
     padding-bottom: 18px;
   }
 
+  .md\:pt-40 {
+    padding-top: 10rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
