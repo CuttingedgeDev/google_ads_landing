@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/fonts/font.css">
+    <link href="../output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/styles/custom.css">
+  </head>
+  <body onresize="myFunction()">
+
+
+    <header class="">
+      
+      <nav id="mainMenu" class="z-30 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
+        <div class="wrap">
+          <div class="h-[64px] lg:h-[92px] flex justify-between items-center">
+            <a href="../index.html" class="cursor-pointer lg:hidden">
+              <img src="../assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
+            </a>
+            <a href="../index.html" class="cursor-pointer hidden lg:flex">
+              <img src="../assets/images/icons/mobile_menu/logo_black.svg" alt="">
+            </a>
+            <a class="cursor-pointer lg:hidden" onclick="openNav()">
+              <img src="../assets/images/icons/mobile_menu/icon_mbile_menu.svg" alt="">
+            </a>
+            <ul class=" font-['PublicSans-Medium'] text-sm gap-10 items-center  hidden lg:flex">
+              <li>
+                <a href="../our_why.html" class="">Our Why</a>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Features
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                      <p class="flex">
+                        <a href="../features/dynamic-pricing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                      <p class="flex">
+                        <a href="../features/predictive-marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                      <p class="flex">
+                        <a href="../features/flexibility.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">By Role
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                      <p class="flex">
+                        <a href="../by_role/marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                      <p class="flex">
+                        <a href="../by_role/operations.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                      <p class="flex">
+                        <a href="../by_role/ownership.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Resourсes
+                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                      <p class="flex">
+                        <a href="../resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                      <p class="flex">
+                        <a href="../resources/case_studies.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="../assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                      <p class="flex">
+                        <a href="../resources/budget_calculator.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="../case_studies.html" class="">Case Studies</a>
+  
+              </li>
+            </ul>
+            <div class="font-['PublicSans-Bold'] text-sm gap-8 items-center hidden lg:flex">
+              <a href="#no" class="">Log in</a>
+              <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="px-7 py-3 bg-[#FF7F5F] text-white rounded hover:opacity-80">Let's Talk </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navBar" class="z-30 relative  bg-[#F5FAFF] w-full  lg:hidden hidden">
+        <nav class="fixed bg-[#F5FAFF] w-full">
+          <div class="w-[100%] pl-5 sm:pl-10 md:pl-20 pr-5 sm:pr-10 md:pr-20">
+            <div class="h-[64px] flex justify-between items-center">
+                <a href="../index.html" class="cursor-pointer">
+                  <img src="../assets/images/icons/mobile_menu/logo_black.svg" alt="">
+                </a>
+                <a class="cursor-pointer" onclick="closeNav()">
+                  <img src="../assets/images/icons/mobile_menu/mobile_menu_close.svg" alt="">
+                </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div id="mobileMenu" class="z-20  overflow-x-hidden fixed overflow-y-auto h-[100vh] w-0 right-0 pb-[52px] bg-[#F5FAFF] duration-500">
+        <div class="pt-[84px] pb-[26px] text-xl font-['PublicSans-Bold']  mobile_wrap mx-auto">
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="../our_why.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Our Why</p><img src="../assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+          <div id="mobile_nav_accordion-collapse" data-accordion="collapse">
+            <div id="menu_accordion_1" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-1" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-1" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-1">
+                  <span>Features</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-1" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-1">
+                <div class="mt-[18px] pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                    <p class="flex">
+                      <a href="../features/dynamic-pricing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                    <p class="flex">
+                      <a href="../features/predictive-marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                    <p class="flex">
+                      <a href="../features/flexibility.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_2" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-2" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-2" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-2">
+                  <span>By Role</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-2" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-2">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                    <p class="flex">
+                      <a href="../by_role/marketing.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                    <p class="flex">
+                      <a href="../by_role/operations.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                    <p class="flex">
+                      <a href="../by_role/ownership.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_3" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-3" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-3" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-3">
+                  <span>Resources</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="../assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-3" class="duration-300 overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-3">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                    <p class="flex">
+                      <a href="../resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                    <p class="flex">
+                      <a href="../resources/case_studies.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="../assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                    <p class="flex">
+                      <a href="../resources/budget_calculator.html" class="text-base flex">Learn more<img src="../assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="../case_studies.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Case Studies</p><img src="../assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+        </div>
+        <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class=""><p class="text-center bg-[#FF7F5F] font-['PublicSans-Bold'] text-xl text-white py-3 rounded  hover:opacity-80 max-w-[330px] mx-auto">Let's Talk</p></a>
+        <p class="text-center pt-[18px] font-['PublicSans-Bold'] text-xl"><a href="#no" class="">Log in</a></p>
+      </div>
+    </header>
+    
+    <section id="main" class="relative  bg-[#161D37] h-screen pt-[64px] md:pt-[92px] w-full">
+      <lottie-player src="../assets/images/dynamic pricing.json" background="#161D37"  speed="1" class="hidden md:block w-full h-full"  hover loop autoplay></lottie-player>
+      <div class="wrap block md:hidden">
+        <div class="relative">
+          <h1 class="pt-[112px] font-['PublicSans-Black'] text-white text-5xl leading-[62px] pb-6">Reduce average time on market, increase NOI</h1>
+          <p class="font-['PublicSans-Medium'] text-[#E9ECF1] text-base leading-5 pb-12">We optimize marketing spend to advertise the units that need it most. No more vacan-mergencies.</p>
+          <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="flex cursor-pointer"><span class="font-bold text-[16px] px-[55px] py-[18px] text-white bg-[#687BFE] rounded-md  hover:opacity-80">Let’s talk</span></a>
+          <img src="../assets/images/ownership/owner-main-arrow.svg" alt="" class="absolute md:hidden bottom-4 left-[200px]">
+        </div>
+      </div>
+    </section>
+
+    <section class="relative pt-20 pb-[453px] md:pt-40 md:pb-[355px]">
+      <div class="wrap">
+        <div class="flex flex-col md:flex-row gap-8 justify-between items-center">
+          <div class="md:order-2">
+            <img src="../assets/images/ownership/ownership-groups.png" alt="" class="">
+          </div>
+          <div class="md:order-1 md:w-[90%] md:max-w-[510px]">
+            <h2 class="font-['PublicSans-Black'] pb-4 ">
+              <p class="text-4xl md:text-[40px] leading-[46px] md:leading-[52px]">Flair for Ownership Groups</p>
+            </h2>
+            <p class="font-['PublicSans-SemiBold'] text-base md:text-lg leading-6 md:leading-7 pb-4">In a competitive market, you need creative ways to add value.</p>
+            <p class="text-base md:text-lg leading-6 md:leading-7">We empower your management team to hit their leasing goals with a marketing solution that is designed to free-up staff and is easy to use.</p>
+          </div>
+        </div>
+      </div>
+      <div class="absolute  -bottom-[350px] md:-bottom-[355px] py-[52px]  md:py-20 w-full z-10">
+        <div class="wrap">
+          <div class="relative bg-white rounded-sm md:rounded-md py-12 md:py-[60px] px-5 md:px-[70px] text-[#353E4F] text-center">
+            <h2 class="font-['PublicSans-Bold'] text-[32px] md:text-4xl leading-10 md:leading-[46px] max-w-[854px] m-auto pb-12 md:pb-[110px]">We’ve created a solution that saves budget and reduces human error.</h2>
+            <div class="relative flex flex-col md:flex-row items-center md:justify-between gap-[82px]">
+              <div class="flex flex-row md:flex-col gap-6 md:max-w-[260px] items-center">
+                <div class="relative bg-[#687BFE] bg-opacity-20 w-[58px] md:w-[110px] h-[58px] md:h-[110px] rounded-full flex items-center">
+                  <img src="../assets/images/icons/icon-cost.svg" alt="" class="w-5 md:w-10 h-5 md:h-10 m-auto">
+                  <img src="../assets/images/multi/multi-max-line-01-mobile.svg" alt="" class="absolute md:hidden left-5  top-[84px]">
+                </div>
+                <p class="max-w-[70%] xs:max-w-none text-base md:text-xl leading-5 md:leading-[26px] text-left md:text-center">Free up time so you can focus on strategy</p>
+              </div>
+              <div class="flex flex-row md:flex-col gap-6 md:max-w-[260px] items-center">
+                <div class="relative bg-[#687BFE] bg-opacity-20 w-[58px] md:w-[110px] h-[58px] md:h-[110px] rounded-full flex items-center">
+                  <img src="../assets/images/icons/icon-spark.svg" alt="" class="w-5 md:w-10 h-5 md:h-10 m-auto">
+                  <img src="../assets/images/multi/multi-max-line-02-mobile.svg" alt="" class="absolute md:hidden left-6  top-[84px]">
+                </div>
+                <p class="max-w-[70%] xs:max-w-none  text-base md:text-xl leading-5 md:leading-[26px] text-left md:text-center">Get more leads without increasing budget</p>
+              </div>
+              <div class="flex flex-row md:flex-col gap-6 md:max-w-[260px] items-center">
+                <div class="bg-[#687BFE] bg-opacity-20 w-[58px] md:w-[110px] h-[58px] md:h-[110px] rounded-full flex items-center">
+                  <img src="../assets/images/icons/icon-focus.svg" alt="" class="w-5 md:w-10 h-5 md:h-10 m-auto">
+                </div>
+                <p class="max-w-[70%] xs:max-w-none  text-base md:text-xl leading-5 md:leading-[26px] text-left md:text-center">Free up time so you can focus on strategy</p>
+              </div>
+              <img src="../assets/images/multi/multi-max-line-01.svg" alt="" class="absolute hidden md:flex md:left-[37%] md:translate-x-[-63%] lg:left-[36%] lg:translate-x-[-64%] xl:left-[34%] xl:translate-x-[-66%] -top-7 md:scale-[0.4] lg:scale-[0.6] xl:scale-[1]">
+              <img src="../assets/images/multi/multi-max-line-02.svg" alt="" class="absolute hidden md:flex md:left-[63%] md:translate-x-[-37%] lg:left-[64%] lg:translate-x-[-36%] xl:left-[66%] xl:translate-x-[-34%] top-[80px] md:scale-[0.4] lg:scale-[0.6] xl:scale-[1]">
+            </div>
+            <img src="../assets/images/multi/multi-max-line-03-mobile.svg" alt="" class="absolute right-0 bottom-12 md:hidden">
+            <img src="../assets/images/multi/multi-max-line-03.svg" alt="" class="absolute right-0 top-0 hidden md:flex">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative pt-[396px] pb-[321px] md:pt-[453px] md:pb-[352px] bg-[#E6EFFB]">
+      <div class="wrap">
+        <h2 class="font-['PublicSans-black'] text-[36px] md:text-[40px] leading-12 md:leading-[52px] text-[#353E4F] pb-4 md:pb-6 max-w-[840px] text-center m-auto">Give your management team the resources they need to <span class="text-[#FF7F5F]">succeed</span></h2>
+        <p class="text-base md:text-lg text-[#515868] text-center">Add value the best ways to increase NOI.</p>
+        <div class="pt-[32px] md:pt-20">
+          <div class="justify-items-center md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
+            <div id="slideC_1" class="mySlides cursor-pointer group hidden fade  md:block bg-white  py-[36px] pl-6 pr-8 md:px-8 md:py-8 md:max-w-[290px] rounded-md md:rounded-[1px]">
+              <div class="flex items-center justify-center w-[64px] h-[64px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-[#687BFE] md:duration-300 md:group-hover:transfrom md:group-hover:-translate-x-[10px] md:group-hover:translate-y-[10px] md:group-hover:shadow-[10px_-10px_rgba(104,123,254,0.2)]">
+                <svg class="group-hover:stroke-white stroke-[#687BFE] group-hover:fill-white fill-[#687BFE] group-hover:duration-300" width="21" height="20" viewBox="0 0 21 20"  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.9997 20C5.59698 19.9999 4.22665 19.5798 3.06638 18.7941C1.90611 18.0085 1.00941 16.8936 0.492548 15.594C-0.0243122 14.2943 -0.137495 12.8699 0.167675 11.5054C0.472845 10.1409 1.18229 8.89924 2.20403 7.9414C3.45662 6.76651 6.53302 4.65116 6.06633 0C11.6666 3.72093 14.4667 7.44186 8.86645 13.0233C9.79982 13.0233 11.1999 13.0233 13.5333 10.7256C13.7853 11.4447 14 12.2177 14 13.0233C14 14.8736 13.2625 16.6482 11.9497 17.9566C10.6368 19.265 8.8563 20 6.9997 20Z"/>
+                </svg>
+              </div>
+              <p class="font-['PublicSans-Bold'] text-base  md:text-lg leading-5 md:leading-6 pt-4 md:pt-6 pb-3">Add value the best ways to increase NOI.</p>
+              <p class="text-base md:text-lg leading-5 md:leading-6 text-[#515868]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            </div>
+            <div id="slideC_2" class="mySlides cursor-pointer group hidden fade  md:block bg-white  py-[36px] pl-6 pr-8 md:px-8 md:py-8 md:max-w-[290px] rounded-md md:rounded-[1px]">
+              <div class="flex items-center justify-center w-[64px] h-[64px] bg-[#38D086] bg-opacity-20 rounded-full md:group-hover:bg-[#38D086] md:duration-300 md:group-hover:transfrom md:group-hover:-translate-x-[10px] md:group-hover:translate-y-[10px] md:group-hover:shadow-[10px_-10px_rgba(56,208,134,0.2)]">
+                <svg class="group-hover:stroke-white stroke-[#38D086] group-hover:fill-white fill-[#38D086] group-hover:duration-300" width="21" height="20" viewBox="0 0 21 20"  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1716 8.28596C12.9796 8.08974 12.7192 7.9795 12.4477 7.9795C12.1763 7.9795 11.9159 8.08974 11.7239 8.28596L11 9.02492C10.8111 9.22486 10.5851 9.38433 10.3353 9.49404C10.0855 9.60376 9.81678 9.6615 9.54489 9.66392C9.27299 9.66634 9.00335 9.61337 8.75169 9.50811C8.50003 9.40286 8.2714 9.24742 8.07913 9.05087C7.88686 8.85431 7.73481 8.62058 7.63185 8.36332C7.52889 8.10605 7.47708 7.8304 7.47944 7.55244C7.4818 7.27448 7.53829 6.99979 7.64561 6.74439C7.75293 6.48899 7.90893 6.258 8.10451 6.0649L13.8689 0.169971C15.2336 -0.147356 16.6615 -0.0167593 17.9494 0.543192C19.2374 1.10314 20.3199 2.06394 21.043 3.28898C21.7661 4.51401 22.093 5.94091 21.9772 7.36679C21.8614 8.79267 21.3088 10.1449 20.3981 11.2313L18.2397 13.466L13.1716 8.28491V8.28596ZM1.95006 1.99329C3.00952 0.910371 4.39528 0.224376 5.8833 0.0462175C7.37133 -0.131941 8.87464 0.208149 10.1502 1.0115L6.65574 4.58488C5.8989 5.35705 5.46748 6.4012 5.45366 7.49421C5.43985 8.58722 5.84473 9.64241 6.5818 10.4343C7.31887 11.2262 8.32967 11.692 9.39822 11.7322C10.4668 11.7724 11.5083 11.3838 12.3003 10.6494L12.4477 10.506L16.792 14.946L12.4477 19.3871C12.0637 19.7795 11.543 20 11 20C10.457 20 9.93626 19.7795 9.55226 19.3871L1.94904 11.6144C0.701085 10.3385 0 8.60814 0 6.80385C0 4.99957 0.701085 3.26917 1.94904 1.99329H1.95006Z"/>
+                </svg>
+              </div>
+              <p class="font-['PublicSans-Bold'] text-base  md:text-lg leading-5 md:leading-6 pt-4 md:pt-6 pb-3">Work with a proven partner </p>
+              <p class="text-base md:text-lg leading-5 md:leading-6 text-[#515868]">We’ve been there, and done that soe (lower time on market = higher NOI). Lower time on market is one of your team can focus on what they’re good at.</p>
+            </div>
+            <div id="slideC_3" class="mySlides cursor-pointer group hidden fade  md:block bg-white  py-[36px] pl-6 pr-8 md:px-8 md:py-8 md:max-w-[290px] rounded-md md:rounded-[1px]">
+              <div class="flex items-center justify-center w-[64px] h-[64px] bg-[#F6D214] bg-opacity-20 rounded-full md:group-hover:bg-[#F6D214] md:duration-300 md:group-hover:transfrom md:group-hover:-translate-x-[10px] md:group-hover:translate-y-[10px] md:group-hover:shadow-[10px_-10px_rgba(246,210,20,0.2)]">
+                <svg class="group-hover:stroke-white stroke-[#F6D214] group-hover:fill-white fill-[#F6D214] group-hover:duration-300" width="21" height="20" viewBox="0 0 21 20"  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 20C9.73199 20 8.4764 19.7582 7.30492 19.2883C6.13343 18.8185 5.069 18.1298 4.17238 17.2617C3.27577 16.3935 2.56453 15.3629 2.07929 14.2286C1.59404 13.0943 1.34429 11.8786 1.34429 10.6508C1.34429 9.42305 1.59404 8.20732 2.07929 7.07303C2.56453 5.93873 3.27577 4.90808 4.17238 4.03993C5.069 3.17178 6.13343 2.48312 7.30492 2.01328C8.4764 1.54344 9.73199 1.30162 11 1.30162C13.5609 1.30162 16.0168 2.28662 17.8276 4.03993C19.6384 5.79324 20.6557 8.17125 20.6557 10.6508C20.6557 13.1304 19.6384 15.5084 17.8276 17.2617C16.0168 19.015 13.5609 20 11 20ZM12.0729 10.6508V5.45681H9.92714V12.7284H15.2914V10.6508H12.0729ZM0 3.67216L3.79255 0L5.31064 1.46886L1.51595 5.14206L0 3.67216ZM18.2064 0L22 3.67216L20.483 5.14206L16.6894 1.46886L18.2075 0H18.2064Z"/>
+                </svg>
+              </div>
+              <p class="font-['PublicSans-Bold'] text-base  md:text-lg leading-5 md:leading-6 pt-4 md:pt-6 pb-3">Save time so they can focus on your asset</p>
+              <p class="text-base md:text-lg leading-5 md:leading-6 text-[#515868]">The right tools make your management team flourish, instead of bog them down.</p>
+            </div>
+            <div id="slideC_4" class="mySlides cursor-pointer group hidden fade  md:block bg-white  py-[36px] pl-6 pr-8 md:px-8 md:py-8 md:max-w-[290px] rounded-md md:rounded-[1px]">
+              <div class="flex items-center justify-center w-[64px] h-[64px] bg-[#FF7F5F] bg-opacity-20 rounded-full md:group-hover:bg-[#FF7F5F] md:duration-300 md:group-hover:transfrom md:group-hover:-translate-x-[10px] md:group-hover:translate-y-[10px] md:group-hover:shadow-[10px_-10px_rgba(255,127,95,0.2)]">
+                <svg class="group-hover:stroke-white stroke-[#FF7F5F] group-hover:fill-white fill-[#FF7F5F] group-hover:duration-300" width="21" height="20" viewBox="0 0 21 20"  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.58936 3.60922L5.88549 6.51392L10.1673 0.434807C10.2619 0.300329 10.3868 0.190714 10.5317 0.115085C10.6765 0.0394563 10.837 0 10.9999 0C11.1628 0 11.3234 0.0394563 11.4682 0.115085C11.613 0.190714 11.7379 0.300329 11.8326 0.434807L16.1144 6.51392L20.4105 3.60922C20.5731 3.49952 20.7633 3.4393 20.9585 3.4357C21.1538 3.43211 21.346 3.48527 21.5124 3.58891C21.6788 3.69256 21.8125 3.84235 21.8976 4.02059C21.9828 4.19882 22.0159 4.39806 21.9929 4.59474L20.3123 19.084C20.283 19.3363 20.1634 19.569 19.9762 19.7378C19.7889 19.9067 19.5471 20 19.2966 20H2.70328C2.45274 20 2.21093 19.9067 2.0237 19.7378C1.83648 19.569 1.71687 19.3363 1.68755 19.084L0.00694712 4.59371C-0.015761 4.3971 0.0174677 4.19802 0.102711 4.01994C0.187954 3.84187 0.321652 3.69225 0.488023 3.58875C0.654394 3.48524 0.846492 3.43217 1.04164 3.4358C1.23679 3.43942 1.42684 3.4996 1.58936 3.60922ZM10.9999 13.7757C11.5425 13.7757 12.0629 13.5571 12.4465 13.168C12.8302 12.7789 13.0457 12.2511 13.0457 11.7009C13.0457 11.1506 12.8302 10.6229 12.4465 10.2338C12.0629 9.84468 11.5425 9.62609 10.9999 9.62609C10.4574 9.62609 9.93701 9.84468 9.55335 10.2338C9.16969 10.6229 8.95416 11.1506 8.95416 11.7009C8.95416 12.2511 9.16969 12.7789 9.55335 13.168C9.93701 13.5571 10.4574 13.7757 10.9999 13.7757Z"/>
+                </svg>
+              </div>
+              <p class="font-['PublicSans-Bold'] text-base  md:text-lg leading-5 md:leading-6 pt-4 md:pt-6 pb-3">Gain confidence in your property marketing</p>
+              <p class="text-base md:text-lg leading-5 md:leading-6 text-[#515868]">If you’re looking for full confidence in your marketing, this is it.</p>
+            </div>
+          </div>
+          <!-- The dots -->
+          <div class="flex justify-center items-center space-x-2 pt-7 md:hidden">
+            <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
+            <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
+            <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
+            <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
+          </div>
+        </div>
+        <img src="../assets/images/ownership/owner-succe-arrow.svg" alt="" class="absolute top-[580px] left-[28%] translate-x-[-72%] hidden md:flex">
+        <img src="../assets/images/ownership/owner-succe-arrow-mobile.svg" alt="" class="absolute top-[950px] left-0 md:hidden">
+      </div>
+    </section>
+    
+    <section id="contact" class="bg-[#161D37] pt-[137px] md:pt-[15.25rem] min-h-[664px] relative">
+      <div class="wrap pl-11">
+        <div class="w-[302px] sm:w-[550px] md:mr-0 md:ml-0 md:w-[640px] lg:w-[768px] xl:w-[1024px] dxl:w-[1280px] h-[241px]  md:h-[172px] xl:h-[192px] bg-[#e2e8fb] absolute -top-[241px] md:-top-[172px] xl:-top-[192px] right-[43%] sm:right-[50%] md:right-[45%] xl:right-[47%] translate-x-2/4 rounded-tl-md rounded-tr-md">
+          <div class="absolute right-[10px] top-[10px] md:right-[40px] md:top-[40px]">
+            <div class="w-[335px] sm:w-[550px] md:w-[640px] lg:w-[768px] xl:w-[1024px] dxl:w-[1280px] relative rounded-md flex flex-col md:flex-row items-center justify-between gap-11 bg-[#687bfe] px-5 lg:px-[3.5rem] xl:px-[6.875rem] py-12 md:pb-[3.75rem] md:pt-20">
+              <div class="text-white md:w-[50%] dxl:w-[630px]">
+                <h2 class="font-['PublicSans-ExtraBold'] text-[28px] lg:text-[30px] xl:text-[40px] leading-[3.25rem]">Learn why ownership groups love Flair</h2>
+              </div>
+              <img src="../assets/images/home_img/Home_contact-arrow.svg" alt="" class="absolute hidden md:flex rotate-[120deg] md:rotate-0 -top-[149px] md:top-[10%] left-0 sm:left-[30%] md:left-[20%] lg:left-[26%] xl:left-[33%] dxl:left-[45%] translate-x-1/2 scale-50 md:scale-75 xl:scale-100">
+              <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="pr-0 xl:pr-10 "><span class="bg-[#161D37] py-[13px] px-[55px] rounded-md font-['PublicSans-Bold'] cursor-pointer text-white  hover:opacity-80">Let’s talk</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="flex flex-wrap justify-between text-white pb-8 gap-9">
+          <div class="w-full xl:w-auto">
+            <ul class="w-[12rem]">
+              <li class="font-['PublicSans-ExtraBold'] text-xl pb-[15px]"><a class="cursor-pointer animoBorderLeftRight">Flair</a></li>
+              <li class="text-sm text-[#B7BCC8] pb-8">We are a team of passionate marketers, developers, and strategists who love to geek out over multifamily technology</li>
+              <li class="">
+                <a class="cursor-pointer">
+                  <img src="../assets/images/home_img/google_partner.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <div class="mt-9 bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem] xl:hidden"></div>
+          </div>
+          <!-- <div class="flex flex-wrap justify-between text-white gap-5 pb-8">
+          </div> -->
+          <ul class="w-[9.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Our Why</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Features</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Dynemic Pricing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Predictive Marketing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Flexibility</a></li>
+          </ul>
+          <ul class="w-[5.6rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">By Role</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Marketing</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Operations</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Ownership</a></li>
+          </ul>
+          <ul class="w-[12.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Resources</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Building Blocks Newsletter</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Budget Calculator</a></li>
+          </ul>
+          <ul class="w-[18.125rem] xl:block ">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer">Get product updates</a></li>
+            <li class="flex relative items-center">
+              <input type="email" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2">
+              <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="../assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
+            </li>
+          </ul>
+
+        </div>
+        <div class="bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]"></div>
+        <div class="flex flex-wrap text-white justify-between py-10">
+          <div class="flex text-[#b9bbc3] gap-12">
+            <a class="cursor-pointer">Privacy Policy</a>
+            <a class="cursor-pointer">Terms and Conditions</a>
+          </div>
+          <p>© 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="../assets/scripts/animate.js"></script>
+    <script src="../assets/scripts/slideC.js"></script>
+  </body>
+</html>
