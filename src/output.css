@@ -689,6 +689,14 @@ video {
   bottom: 22%;
 }
 
+.top-\[420px\] {
+  top: 420px;
+}
+
+.bottom-\[219px\] {
+  bottom: 219px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -3261,6 +3269,10 @@ video {
     padding-top: 297px;
   }
 
+  .md\:pb-\[110px\] {
+    padding-bottom: 110px;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -3443,6 +3455,10 @@ video {
 
   .lg\:h-\[177px\] {
     height: 177px;
+  }
+
+  .lg\:h-\[92px\] {
+    height: 92px;
   }
 
   .lg\:w-\[50\%\] {
