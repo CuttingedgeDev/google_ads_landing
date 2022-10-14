@@ -12,9 +12,9 @@
 
     <header class="">
       
-      <nav id="mainMenu" class="z-10 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
+      <nav id="mainMenu" class="z-30 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
         <div class="wrap">
-          <div class="h-[64px] md:h-[92px] flex justify-between items-center">
+          <div class="h-[64px] lg:h-[92px] flex justify-between items-center">
             <a href="../index.html" class="cursor-pointer lg:hidden">
               <img src="../assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
             </a>
@@ -29,7 +29,7 @@
                 <a href="../our_why.html" class="">Our Why</a>
               </li>
               <li class="group">
-                <a href="#no" class="h-16 md:h-[92px]  group-hover:text-[#687BFE] flex items-center">Features
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Features
                   <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
@@ -70,7 +70,7 @@
                 </div>
               </li>
               <li class="group">
-                <a href="#no" class="h-16 md:h-[92px]  group-hover:text-[#687BFE] flex items-center">By Role
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">By Role
                   <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
@@ -111,7 +111,7 @@
                 </div>
               </li>
               <li class="group">
-                <a href="#no" class="h-16 md:h-[92px]  group-hover:text-[#687BFE] flex items-center">Resourсes
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Resourсes
                   <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
@@ -349,10 +349,10 @@
           </div>
         </div>
       </div>
-      <div class="absolute  -bottom-[329px] md:-bottom-[257px] py-[52px]  md:py-20 w-full z-0">
+      <div class="absolute  -bottom-[329px] md:-bottom-[257px] py-[52px]  md:py-20 w-full z-10">
         <div class="wrap">
           <div class="relative bg-white rounded-sm md:rounded-md py-12 md:py-[60px] px-5 md:px-[70px] text-[#353E4F] text-center">
-            <h2 class="font-['PublicSans-Bold'] text-[32px] md:text-4xl leading-10 md:leading-[46px] max-w-[854px] m-auto pb-12 md:[110px]">Maximize your budget and bandwidth simultaneously!</h2>
+            <h2 class="font-['PublicSans-Bold'] text-[32px] md:text-4xl leading-10 md:leading-[46px] max-w-[854px] m-auto pb-12 md:pb-[110px]">Maximize your budget and bandwidth simultaneously!</h2>
             <div class="relative flex flex-col md:flex-row items-center md:justify-between gap-[82px]">
               <div class="flex flex-row md:flex-col gap-6 md:max-w-[260px] items-center">
                 <div class="relative bg-[#687BFE] bg-opacity-20 w-[58px] md:w-[110px] h-[58px] md:h-[110px] rounded-full flex items-center">
@@ -384,7 +384,7 @@
       </div>
     </section>
 
-    <section class="pt-[409px] md:pt-[453px] bg-[#E6EFFB] pb-[321px]">
+    <section class="relative pt-[409px] md:pt-[453px] bg-[#E6EFFB] pb-[321px]">
       <div class="wrap">
         <h2 class="font-['PublicSans-Black'] text-4xl md:text-[40px] leading-[46px] pb-4 md:pb-[10px]">How We Can Help You</h2>
         <p class="text-base md:text-lg leading-6 text-[#515868] pb-8 md:pb-[52px]">Find out how Flair can be of service for you and your businnes.</p>
@@ -423,6 +423,8 @@
           <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
         </div>
       </div>
+      <img src="../assets/images/multi/multi-how-line.svg" alt="" class="absolute hidden md:flex top-[420px] right-0">
+      <img src="../assets/images/multi/multi-how-line-mobile.svg" alt="" class="absolute  md:hidden bottom-[219px] left-0">
     </section>
 
  
@@ -434,8 +436,8 @@
           <div class="absolute right-[10px] top-[10px] md:right-[40px] md:top-[40px]">
             <div class="w-[335px] sm:w-[550px] md:w-[640px] lg:w-[768px] xl:w-[1024px] dxl:w-[1280px] relative rounded-md flex flex-col md:flex-row items-center justify-between gap-11 bg-[#687bfe] px-5 lg:px-[3.5rem] xl:px-[6.875rem] py-12 md:pb-[3.75rem] md:pt-20">
               <div class="text-white md:w-[50%] dxl:w-[630px]">
-                <h2 class="font-['PublicSans-ExtraBold'] text-[28px] lg:text-[30px] xl:text-[40px] leading-[3.25rem]">Flair puts the power back in your hands.</h2>
-                <p class="text-xl">Want to see how it works? Schedule a demo.</p>
+                <h2 class="font-['PublicSans-ExtraBold'] text-[28px] lg:text-[30px] xl:text-[40px] leading-[3.25rem]">Learn why multifamily marketers love Flair.
+                </h2>
               </div>
               <img src="../assets/images/home_img/Home_contact-arrow.svg" alt="" class="absolute hidden md:flex rotate-[120deg] md:rotate-0 -top-[149px] md:top-[10%] left-0 sm:left-[30%] md:left-[20%] lg:left-[26%] xl:left-[33%] dxl:left-[45%] translate-x-1/2 scale-50 md:scale-75 xl:scale-100">
               <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="pr-0 xl:pr-10 "><span class="bg-[#161D37] py-[13px] px-[55px] rounded-md font-['PublicSans-Bold'] cursor-pointer text-white  hover:opacity-80">Let’s talk</span></a>
