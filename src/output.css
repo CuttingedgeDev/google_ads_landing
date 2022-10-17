@@ -1096,12 +1096,24 @@ video {
   height: 22px;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[440px\] {
+  height: 440px;
+}
+
 .min-h-\[664px\] {
   min-height: 664px;
 }
 
 .min-h-\[63px\] {
   min-height: 63px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-full {
@@ -1278,6 +1290,14 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[470px\] {
+  width: 470px;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .min-w-\[175px\] {
@@ -2847,6 +2867,10 @@ video {
   transition-duration: 700ms;
 }
 
+.duration-100 {
+  transition-duration: 100ms;
+}
+
 .hover\:translate-x-\[-\]:hover {
   --tw-translate-x: -;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2917,6 +2941,11 @@ video {
   background-color: rgb(104 123 254 / var(--tw-bg-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:opacity-80:hover {
   opacity: 0.8;
 }
@@ -2941,6 +2970,40 @@ video {
 
 .hover\:duration-700:hover {
   transition-duration: 700ms;
+}
+
+.focus\:border-0:focus {
+  border-width: 0px;
+}
+
+.focus\:border-4:focus {
+  border-width: 4px;
+}
+
+.focus\:border-solid:focus {
+  border-style: solid;
+}
+
+.focus\:border-red-500:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.focus\:shadow-xl:focus {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus\:shadow-none:focus {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus-visible\:outline-none:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .group:hover .group-hover\:h-\[295px\] {
