@@ -1,13 +1,50 @@
-// window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()};
+// border-b-[1px] border-t-[1px] border-[#C6D6EA]
+function scrollFunction() {
+    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+		document.getElementById("mainMenu").style.backgroundColor = "#F5FAFF";
+        document.getElementById("mainMenu").style.color = "#161D37";
 
-// function scrollFunction() {
-//     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//         document.getElementById("navbar").style.backgroundColor = "#F5FAFF";
-//     } else {
-//         document.getElementById("navbar").style.backgroundColor = "#161D37";
+        document.getElementById("hamberg").style.fill = "#161D37";
 
-//     }
-// }
+        document.getElementById("mainMenu").classList.add('border-b-[1px]');
+        document.getElementById("mainMenu").classList.add('border-[#C6D6EA]');
+
+        document.getElementById("blackLogo").style.display = "block";
+        document.getElementById("lightLogo").style.display = "none";
+		
+		document.getElementById("menuDrop1").classList.add('fill-color-base');
+		document.getElementById("menuDrop1").classList.remove('fill-white');
+		document.getElementById("menuDrop2").classList.add('fill-color-base');
+		document.getElementById("menuDrop2").classList.remove('fill-white');
+		document.getElementById("menuDrop3").classList.add('fill-color-base');
+		document.getElementById("menuDrop3").classList.remove('fill-white');
+
+		
+	} else {
+
+        document.getElementById("mainMenu").style.backgroundColor = "#161D37";
+        document.getElementById("mainMenu").style.color = "#ffffff";
+
+        document.getElementById("hamberg").style.fill = "#ffffff";
+
+
+		document.getElementById("mainMenu").classList.remove('border-b-[1px]');
+        document.getElementById("mainMenu").classList.remove('border-[#C6D6EA]');
+
+		document.getElementById("blackLogo").style.display = "none";
+        document.getElementById("lightLogo").style.display = "block";
+        
+		document.getElementById("menuDrop1").classList.remove('fill-color-base');
+		document.getElementById("menuDrop1").classList.add('fill-white');
+		document.getElementById("menuDrop2").classList.remove('fill-color-base');
+		document.getElementById("menuDrop2").classList.add('fill-white');
+		document.getElementById("menuDrop3").classList.remove('fill-color-base');
+		document.getElementById("menuDrop3").classList.add('fill-white');
+
+		
+    }
+}
 
 
 // start Mobile menu

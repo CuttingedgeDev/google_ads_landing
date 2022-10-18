@@ -12,17 +12,19 @@
 
     <header class="">
       
-      <nav id="mainMenu" class="z-10 bg-color-base lg:bg-[#F5FAFF] lg:border-b-[1px] lg:border-[#C6D6EA] fixed w-full">
+      <nav id="mainMenu" class="z-10 bg-color-base text-white  fixed w-full">
         <div class="wrap">
           <div class="h-[64px] lg:h-[92px] flex justify-between items-center">
-            <a href="./index.html" class="cursor-pointer lg:hidden">
+            <a id="lightLogo" href="./index.html" class="cursor-pointer lg:flex">
               <img src="./assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
             </a>
-            <a href="./index.html" class="cursor-pointer hidden lg:flex">
+            <a id="blackLogo" href="./index.html" class="cursor-pointer hidden lg:hidden">
               <img src="./assets/images/icons/mobile_menu/logo_black.svg" alt="">
             </a>
             <a class="cursor-pointer lg:hidden" onclick="openNav()">
-              <img src="./assets/images/icons/mobile_menu/icon_mbile_menu.svg" alt="">
+              <svg id="hamberg" width="24" height="24" viewBox="0 0 24 24" class="fill-white" >
+                <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"/>
+              </svg>
             </a>
             <ul class=" font-['PublicSans-Medium'] text-sm gap-10 items-center  hidden lg:flex">
               <li>
@@ -30,11 +32,11 @@
               </li>
               <li class="group">
                 <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Features
-                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg id="menuDrop1" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup1" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
@@ -71,11 +73,11 @@
               </li>
               <li class="group">
                 <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">By Role
-                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg id="menuDrop2" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup2" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
@@ -112,11 +114,11 @@
               </li>
               <li class="group">
                 <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Resourсes
-                  <svg class="ml-2 group-hover:rotate-180 fill-color-base group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg id="menuDrop3" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div class="fixed left-0 top-[92px] border-b-[1px] border-t-[1px] border-[#C6D6EA] bg-[#F5FAFF]   w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup3" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
@@ -164,7 +166,7 @@
         </div>
       </nav>
   
-      <div id="navBar" class="z-30 relative  bg-[#F5FAFF] w-full  lg:hidden hidden">
+      <div id="navBar" class="z-30 relative   w-full  lg:hidden hidden">
         <nav class="fixed bg-[#F5FAFF] w-full">
           <div class="w-[100%] pl-5 sm:pl-10 md:pl-20 pr-5 sm:pr-10 md:pr-20">
             <div class="h-[64px] flex justify-between items-center">
@@ -172,7 +174,9 @@
                   <img src="./assets/images/icons/mobile_menu/logo_black.svg" alt="">
                 </a>
                 <a class="cursor-pointer" onclick="closeNav()">
-                  <img src="./assets/images/icons/mobile_menu/mobile_menu_close.svg" alt="">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
+                    <path d="M10 7.77813L17.7781 0L20 2.22187L12.2219 10L20 17.7781L17.7781 20L10 12.2219L2.22187 20L0 17.7781L7.77813 10L0 2.22187L2.22187 0L10 7.77813Z" fill="#161D37"/>
+                  </svg>
                 </a>
             </div>
           </div>
@@ -426,8 +430,8 @@
     <section id="contact" class="bg-[#161D37] pt-9 md:pt-[90px] min-h-auto relative">
       <div class="wrap">
         <div class="flex flex-wrap justify-between text-white pb-8 gap-9">
-          <div class="w-full xl:w-auto">
-            <ul class="w-[12rem]">
+          <div class="w-full md:w-auto">
+            <ul class="w-full xs:w-[12rem]">
               <li class="font-['PublicSans-ExtraBold'] text-xl pb-[15px]"><a class="cursor-pointer animoBorderLeftRight">Flair</a></li>
               <li class="text-sm text-[#B7BCC8] pb-8">We are a team of passionate marketers, developers, and strategists who love to geek out over multifamily technology</li>
               <li class="">
@@ -436,8 +440,10 @@
                 </a>
               </li>
             </ul>
-            <div class="mt-9 bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem] xl:hidden"></div>
+            <div class="mt-9 bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]  md:hidden"></div>
           </div>
+          <!-- <div class="flex flex-wrap justify-between text-white gap-5 pb-8">
+          </div> -->
           <ul class="w-[9.7rem]">
             <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Our Why</a></li>
             <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Features</a></li>
@@ -461,19 +467,19 @@
           <ul class="w-[18.125rem] xl:block ">
             <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer">Get product updates</a></li>
             <li class="flex relative items-center">
-              <input type="email" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2 focus-visible:outline-none">
+              <input type="" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2 focus-visible:outline-none">
               <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="./assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
             </li>
           </ul>
 
         </div>
         <div class="bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]"></div>
-        <div class="flex flex-wrap text-white justify-between py-10">
+        <div class="flex flex-col sm:flex-row text-white justify-between py-10">
           <div class="flex text-[#b9bbc3] gap-12">
-            <a class="cursor-pointer">Privacy Policy</a>
-            <a class="cursor-pointer">Terms and Conditions</a>
+            <a class="cursor-pointer hover:text-white duration-200">Privacy Policy</a>
+            <a class="cursor-pointer  hover:text-white duration-200">Terms and Conditions</a>
           </div>
-          <p>© 2022, All Rights Reserved</p>
+          <p class="pt-6 sm:pt-0" >© 2022, All Rights Reserved</p>
         </div>
       </div>
     </section>
