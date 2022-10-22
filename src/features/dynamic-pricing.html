@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="../assets/fonts/font.css">
     <link href="../output.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/styles/custom.css">
+
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
   </head>
   <body>
 
 
     <header class="">
       
-      <nav id="mainMenu" class="z-10 bg-color-base text-white  fixed w-full">
+      <nav id="mainMenu" class="z-30 bg-color-base text-white  fixed w-full">
         <div class="wrap">
           <div class="h-[64px] lg:h-[92px] flex justify-between items-center">
             <a id="lightLogo" href="../index.html" class="cursor-pointer lg:flex">
@@ -36,7 +38,7 @@
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div id="menuGroup1" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup1" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-300 duration-700">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
@@ -77,7 +79,7 @@
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div id="menuGroup2" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup2" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-300 duration-700">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
@@ -118,7 +120,7 @@
                     <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
                   </svg>
                 </a>
-                <div id="menuGroup3" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] duration-200">
+                <div id="menuGroup3" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-300 duration-700">
                   <div class="wrap py-[30px] flex justify-center gap-3">
                     <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
                       <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
@@ -328,7 +330,8 @@
     </header>
     
     <section id="main" class="relative  bg-[#161D37] h-screen pt-[64px] md:pt-[92px] w-full">
-      <lottie-player src="../assets/images/dynamic pricing.json" background="#161D37"  speed="1" class="hidden md:block w-full h-full"  hover loop autoplay></lottie-player>
+      <!-- <lottie-player src="e:\WORK\2022.09.04\gen_marketing_www\src\assets\images\dynamic-pricing.json" background="#161D37"  speed="1" class="hidden md:block w-full h-full"  hover loop autoplay></lottie-player> -->
+      <lottie-player src="../assets/images/dynamic-pricing.json" background="#161D37"  speed="1"  class="hidden md:block w-full h-full" hover loop autoplay></lottie-player>
       <div class="wrap block md:hidden">
         <div class="">
           <h1 class="pt-[103px] font-['PublicSans-Black'] text-white text-5xl leading-[62px] pb-6">Insert Real Time Pricing into Your Google Ads </h1>
@@ -385,7 +388,7 @@
           <div class="relative bg-[#85C8B6] rounded-sm md:rounded-md py-20 md:py-[90px] px-5 md:px-[110px] text-white text-center">
             <h2 class="font-['PublicSans-Bold'] text-[28px] md:text-[32px] leading-[36px] md:leading-10 m-auto pb-4">Pull Pricing from any PMS/Website </h2>
             <p class="text-base md:text-lg leading-6 md:leading-7 pb-[52px] md:pb-[94px]">We play nice! Flair is compatible with any website provider  mentioned below, and more. </p>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4  gap-12 justify-items-center">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4  gap-12 justify-items-center z-10">
               <img src="../assets/images/dynamic/brand-yardi.svg" alt="">
               <img src="../assets/images/dynamic/brand-realpage.svg" alt="">
               <img src="../assets/images/dynamic/brand-appfolio.svg" alt="">
@@ -486,7 +489,7 @@
             <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer">Get product updates</a></li>
             <li class="flex relative items-center">
               <input type="" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2 focus-visible:outline-none">
-              <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="./assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
+              <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="../assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
             </li>
           </ul>
 
