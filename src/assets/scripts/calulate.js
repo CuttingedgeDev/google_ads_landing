@@ -59,16 +59,16 @@ function cal_budget() {
   var leads = document.getElementById('leadsGenerate').value;
   var ratio = document.getElementById('leaseRatio').value;
   var rate = document.getElementById('conversionRate').value
-  if (leads == 0) {
-    // document.getElementById('leadsGenerate').focus();
-    alert('Set the leads to generate');
-  } else if (ratio == 0) {
-    alert('Set the lease ratio');
-  } else if (rate == 0) {
-    alert('Set the conversion rate')
-  } else {
+  // if (leads == 0) {
+  //   // document.getElementById('leadsGenerate').focus();
+  //   // alert('Set the leads to generate');
+  // } else if (ratio == 0) {
+  //   // alert('Set the lease ratio');
+  // } else if (rate == 0) {
+  //   // alert('Set the conversion rate')
+  // } else {
     budget = Math.ceil( leads * ratio * rate / 100);
-    alert(budget);
+    // alert(budget);
     document.getElementById('monthlyBudget').textContent=budget;
 
     // document.getElementById('budgetPanel').classList.add('hidden');
@@ -81,7 +81,7 @@ function cal_budget() {
       document.getElementById('btn_back').classList.remove('hidden');
 
     }
-  }
+  // }
 }
 
 function back() {
