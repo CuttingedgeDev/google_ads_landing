@@ -6,7 +6,7 @@ const modal = document.getElementById('modal') // modal
 const modalClose = document.getElementsByClassName('modal-close') // close modal button
 
 
-function myFunction() {
+function resizeFunc() {
   var w = window.outerWidth;
   var h = window.outerHeight;
   if (w > 767 & state == 0) { 

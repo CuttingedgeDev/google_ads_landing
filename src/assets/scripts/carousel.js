@@ -1,7 +1,7 @@
 // event of resize dom
 var state = 0;
 
-function myFunction() {
+function resizeFunc() {
     var w = window.outerWidth;
     var h = window.outerHeight;
     if (w > 767 & state == 0) { 

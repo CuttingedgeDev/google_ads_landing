@@ -2,7 +2,7 @@ let slideIndex = 0;
 // showSlides();
 var state = 0;
 var delayC = 3000;
-function myFunction() {
+function resizeFunc() {
     var w = window.outerWidth;
     var h = window.outerHeight;
     if (w > 767 & state == 0) { 
