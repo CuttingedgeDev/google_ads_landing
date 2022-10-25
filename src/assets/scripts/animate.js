@@ -7,8 +7,9 @@ function scrollFunction() {
 
         document.getElementById("hamberg").style.fill = "#161D37";
 
-        document.getElementById("mainMenu").classList.add('border-b-[1px]');
-        document.getElementById("mainMenu").classList.add('border-[#C6D6EA]');
+        // document.getElementById("mainMenu").classList.add('border-b-[1px]');
+        document.getElementById("mainMenu").style.border = "solid 1px #C6D6EA";
+        // document.getElementById("mainMenu").classList.add('border-[#C6D6EA]');
 
         document.getElementById("blackLogo").style.display = "block";
         document.getElementById("lightLogo").style.display = "none";
@@ -28,9 +29,10 @@ function scrollFunction() {
 
         document.getElementById("hamberg").style.fill = "#ffffff";
 
+        document.getElementById("mainMenu").style.border = "none 0px #C6D6EA";
 
-		document.getElementById("mainMenu").classList.remove('border-b-[1px]');
-        document.getElementById("mainMenu").classList.remove('border-[#C6D6EA]');
+		// document.getElementById("mainMenu").classList.remove('border-b-[1px]');
+        // document.getElementById("mainMenu").classList.remove('border-[#C6D6EA]');
 
 		document.getElementById("blackLogo").style.display = "none";
         document.getElementById("lightLogo").style.display = "block";
