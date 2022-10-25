@@ -57,7 +57,9 @@
 
     <link rel="icon" href="../favicon.ico" />
     <link rel="stylesheet" href="../assets/fonts/font.css">
-    <link href="../output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/styles/slick.css">
+    <link rel="stylesheet" href="../assets/styles/slick-theme.css">
+    <link rel="stylesheet" href="../output.css"/>
     <link rel="stylesheet" href="../assets/styles/custom.css">
   </head>
   <body onresize="resizeFunc()">
@@ -447,26 +449,26 @@
       <div class="wrap">
         <h2 class="font-['PublicSans-Black'] text-4xl md:text-[40px] leading-[46px] pb-4 md:pb-[10px]">How We Can Help You</h2>
         <p class="text-base md:text-lg leading-6 text-[#515868] pb-8 md:pb-[52px]">Find out how Flair can be of service for you and your businnes.</p>
-        <div class="md:grid md:grid-cols-2 justify-items-center lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
-          <div id="slideC_1" class="mySlides hidden fade  md:block bg-white  py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+        <div class="succeedSlide md:grid md:grid-cols-2 justify-items-center lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
             <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
               <img src="../assets/images/icons/icon-hourglass.png" alt="" class="">
             </div>
             <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Save time with dynamic pricing</p>
           </div>
-          <div id="slideC_2" class="mySlides hidden fade  md:block bg-white  py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
             <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
               <img src="../assets/images/icons/icon-budjet-money.png" alt="" class="">
             </div>
             <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Automatically allocate budget to available units</p>
           </div>
-          <div id="slideC_3" class="mySlides hidden fade  md:block bg-white  py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
             <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
               <img src="../assets/images/icons/icon-magnifying-glass.png" alt="" class="">
             </div>
             <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Scale across your portfolio easily</p>
           </div>
-          <div id="slideC_4" class="mySlides hidden fade  md:block bg-white  py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
             <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
               <img src="../assets/images/icons/icon-page-facing.png" alt="" class="">
             </div>
@@ -475,12 +477,7 @@
           <!-- The dots -->
           
         </div>
-        <div class="flex justify-center items-center space-x-2 pt-7 md:hidden">
-          <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
-          <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
-          <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
-          <div class="dot w-2 h-2 rounded-full cursor-pointer bg-[#687BFE] opacity-20"></div>
-        </div>
+
       </div>
       <img src="../assets/images/multi/multi-how-line.svg" alt="" class="absolute hidden md:flex top-[420px] right-0">
       <img src="../assets/images/multi/multi-how-line-mobile.svg" alt="" class="absolute  md:hidden bottom-[219px] left-0">
@@ -563,7 +560,9 @@
 
 
 
+    <script src="../assets/scripts/jquery.js"></script>
+    <script src="../assets/scripts/slick.js"></script>
     <script src="../assets/scripts/animate.js"></script>
-    <script src="../assets/scripts/slideC.js"></script>
+    <script src="../assets/scripts/carousels.js"></script>
   </body>
 </html>
