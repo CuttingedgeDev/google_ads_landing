@@ -58,38 +58,15 @@ if ( window.outerWidth > 767) {
       autoplaySpeed: 3000,
     });
 
-    // $('.familierSlide').slick({
-    //   infinite: true,
-    //   speed: 500,
-    //   fade: true,
-    //   cssEase: 'linear',
-    //   slidesToScroll: 1,
-    //   autoplay: true,
-    //   autoplaySpeed: 3000,
-    // });
-
-    // $('.familierSlide').each(function(num, elem) {
-    //   elem = $(elem);
-    //   elem.slick({
-    //     infinite: true,
-    //     speed: 500,
-    //     fade: true,
-    //     cssEase: 'linear',
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    //   });
-  
-    //   elem.next('.marketingSlide').slick({
-    //     infinite: true,
-    //     speed: 500,
-    //     fade: true,
-    //     cssEase: 'linear',
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    //   });
-    // });
+    $('.familierSlide').slick({
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    });
 
   });
 
