@@ -68,6 +68,7 @@ function cal_budget() {
   //   // alert('Set the conversion rate')
   // } else {
     budget = Math.ceil( leads * ratio / rate);
+    budget = budget.toLocaleString('en');
     // alert(budget);
     document.getElementById('monthlyBudget').textContent=budget;
 
