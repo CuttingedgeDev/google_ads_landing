@@ -1,5 +1,5 @@
 // event of resize dom
-var state = 0;
+// var state = 0;
 
 // function resizeFunc() {
 //   var w = window.outerWidth;
@@ -59,6 +59,18 @@ if ( window.outerWidth > 767) {
     });
 
     $('.familierSlide').slick({
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+    });
+
+    $('.succeedSlide').slick({
+      arrows: false,
+      dots: true,
       infinite: true,
       speed: 500,
       fade: true,

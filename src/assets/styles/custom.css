@@ -209,3 +209,54 @@ input[type="range"]::-ms-track {
   border: none;
   background-repeat: no-repeat;
 }
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	list-style-type: none;
+  bottom: -48px;
+}
+	
+.slick-dots	li {
+  margin: 4px;
+  width: 8px;
+  height: 8px;
+}
+
+.slick-dots li	button {
+  display: block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  opacity: 0.2;
+  background-color: #687BFE;
+  text-indent: -9999px;
+}
+	
+.slick-dots li	button:before {
+  display: block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #687BFE;
+  opacity: 0.2;
+  text-indent: -9999px;
+}
+
+.slick-dots	li.slick-active button {
+  display: block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  text-indent: -9999px;
+  opacity: 1;
+  background-color: #687BFE;
+}
+	
