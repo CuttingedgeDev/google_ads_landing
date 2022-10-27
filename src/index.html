@@ -382,7 +382,7 @@
       </div>
     </header>
     
-    <section id="main" class="relative bg-[#161D37] h-screen pt-[92px] w-full bg-auto bg-[center_top_8rem] bg-no-repeat lg:bg-[url('./assets/images/home_img/Home_main_line.svg')]">
+    <section id="main" class="relative bg-[#161D37] h-screen min-h-[674px] pt-[92px] w-full bg-auto bg-[center_top_8rem] bg-no-repeat lg:bg-[url('./assets/images/home_img/Home_main_line.svg')]">
       <div class="wrap">
         <div class="flex justify-between gap-10">
           <div class="flex flex-col gap-y-12">
@@ -427,16 +427,30 @@
         <h2 class="font-['PublicSans-ExtraBold'] pb-6 leading-[50px] text-[40px] md:text-[50px] md:text-center">You know multifamily marketing</br>inside-out</h2>
         <p class="text-[#515868] pb-[88px] md:pb-[72px] text-base md:text-lg  md:text-center">The problem? Your PPC ad campaigns are gray-hair-increasing</br>(and Xanax-inducing)</p>
         <div class="xl:px-[112px]">
-          <div class="marketingSlide gap-4 md:bg-opacity-[15] md:bg-[#B0C5DE] md:pt-[70px] pb-12 md:pb-[77px] md:px-[30px] lg:px-[82px] md:flex md:justify-between">
-            <div id="slideA_1" class="slideA bg-white   md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+          <div id="marketingSlide" class="marketingSlide md:hidden gap-4 md:bg-opacity-[.15] md:bg-[#B0C5DE] md:pt-[70px] pb-12 md:pb-[77px] md:px-[30px] lg:px-[82px]  md:justify-between">
+            <div id="slideA_1" class="slideA bg-white h-[260px] md:h-auto md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
               <img src="./assets/images/home_img/Home_inside_1.png" alt="">
               <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“I’ve got a perpetual bandwidth problem. How am I supposed to hit my benchmarks if management won’t increase my budget?”</p>
             </div>
-            <div id="slideA_2" class="slideA bg-white   md:mt-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+            <div id="slideA_2" class="slideA bg-white h-[260px] md:h-auto md:mt-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
               <img src="./assets/images/home_img/Home_inside_2.png" alt="">
               <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“If I have to deal with one more 40-thread-email chain, I will SCREAM. Why does every little update take my agency forever? I’m wasting my time here.”</p>
             </div>
-            <div id="slideA_3" class="slideA bg-white   md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+            <div id="slideA_3" class="slideA bg-white h-[260px] md:h-auto md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+              <img src="./assets/images/home_img/Home_inside_3.png" alt="">
+              <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“Honestly? We’re wasting our budget on unqualified leads, but there’s no way we can update each ad every time we change our price… It sucks.”</p>
+            </div>
+          </div>
+          <div class="hidden gap-4 md:bg-opacity-[.15] md:bg-[#B0C5DE] md:pt-[70px] pb-12 md:pb-[77px] md:px-[30px] lg:px-[82px] md:flex md:justify-between">
+            <div id="slideA_1" class="slideA bg-white h-[260px] md:h-auto md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+              <img src="./assets/images/home_img/Home_inside_1.png" alt="">
+              <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“I’ve got a perpetual bandwidth problem. How am I supposed to hit my benchmarks if management won’t increase my budget?”</p>
+            </div>
+            <div id="slideA_2" class="slideA bg-white h-[260px] md:h-auto md:mt-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
+              <img src="./assets/images/home_img/Home_inside_2.png" alt="">
+              <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“If I have to deal with one more 40-thread-email chain, I will SCREAM. Why does every little update take my agency forever? I’m wasting my time here.”</p>
+            </div>
+            <div id="slideA_3" class="slideA bg-white h-[260px] md:h-auto md:mb-[72px] md:w-[29%] p-8 md:py-7 md:pl-6 md:pr-4 xl:p-8  min-w-[175px]">
               <img src="./assets/images/home_img/Home_inside_3.png" alt="">
               <p class="pt-4 text-[15px] text-[#353E4F] leading-6">“Honestly? We’re wasting our budget on unqualified leads, but there’s no way we can update each ad every time we change our price… It sucks.”</p>
             </div>
@@ -452,7 +466,20 @@
 
           <div class="md:pt-[10.3rem] md:flex md:justify-start lg:justify-between items-center flex-col md:flex-row md:gap-0">
             <h3 class="hidden md:flex pt-6 ml:pt-0 md:mr-3 md:max-w-[280px] lg:max-w-[500px] lg:pl-[112px] text-[28px] md:text-[32px] font-['PublicSans-ExtraBold'] leading-9 md:leading-10 order-2 md:order-1 ">You know your choices – and you don’t like them</h3>
-            <div class="familierSlide lg:w-[50%] md:flex md:justify-between order-1 md:order-2">
+            <div id="familierSlide" class="familierSlide lg:w-[50%] md:hidden md:justify-between order-1 md:order-2">
+              <div class=" bg-white md:mr-3  w-full md:max-w-[290px] p-10 md:p-5 md:mb-[180px] lg:pr-[58px] lg:py-11 lg:pl-11 relative lg:min-w-[205px] ">
+                <img src="./assets/images/icons/icons_home/icon_members.svg" alt="" class="pb-6">
+                <p class="font-['PublicSans-Bold'] text-[22px] pb-2 leading-7">Agencies</p>
+                <p class="text-[#515868] text-base leading-6">They are expensive, take WAY too much time, and lock you into Forever Contracts.</p>
+                <img src="./assets/images/home_img/Home_sound_line.svg" alt="" class="pt-10 absolute hidden lg:flex">
+              </div>
+              <div class=" bg-white w-full md:max-w-[290px] p-10 md:p-5 md:mt-[180px] lg:pl-[58px] lg:py-11 lg:pr-11 lg:min-w-[205px] ">
+                <img src="./assets/images/icons/icons_home/icon_house.svg" alt="" class="pb-6">
+                <p class="font-['PublicSans-Bold'] text-[22px] pb-2 leading-7">In-house</p>
+                <p class="text-[#515868] text-base leading-6">Sounds nice, but you don’t have the resources, skills, or time to get it done right.</p>
+              </div>
+            </div>
+            <div  class="hidden lg:w-[50%] md:flex md:justify-between order-1 md:order-2">
               <div class=" bg-white md:mr-3  w-full md:max-w-[290px] p-10 md:p-5 md:mb-[180px] lg:pr-[58px] lg:py-11 lg:pl-11 relative lg:min-w-[205px] ">
                 <img src="./assets/images/icons/icons_home/icon_members.svg" alt="" class="pb-6">
                 <p class="font-['PublicSans-Bold'] text-[22px] pb-2 leading-7">Agencies</p>

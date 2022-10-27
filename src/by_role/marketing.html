@@ -62,7 +62,7 @@
     <link rel="stylesheet" href="../output.css"/>
     <link rel="stylesheet" href="../assets/styles/custom.css">
   </head>
-  <body onresize="resizeFunc()">
+  <body>
 
 
     <header class="">
@@ -382,7 +382,7 @@
       </div>
     </header>
     
-    <section id="main" class="relative  bg-[#161D37] h-screen pt-[92px] w-full">
+    <section id="main" class="relative  bg-[#161D37] h-screen min-h-[674px] pt-[92px] w-full">
       <div class="wrap">
         <div class="pt-[143px] md:pt-[175px] md:max-w-[619px] md:text-center md:m-auto">
           <h1 class="font-['PublicSans-ExtraBold'] text-5xl pb-6 md:text-[54px] leading-[62px] md:leading-[70px] text-white">Multifamily Marketers</h1>
@@ -449,7 +449,7 @@
       <div class="wrap">
         <h2 class="font-['PublicSans-Black'] text-4xl md:text-[40px] leading-[46px] pb-4 md:pb-[10px]">How We Can Help You</h2>
         <p class="text-base md:text-lg leading-6 text-[#515868] pb-8 md:pb-[52px]">Find out how Flair can be of service for you and your businnes.</p>
-        <div class="succeedSlide md:grid md:grid-cols-2 justify-items-center lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
+        <div class="succeedSlide md:hidden md:grid-cols-2 justify-items-center lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
           <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
             <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
               <img src="../assets/images/icons/icon-hourglass.png" alt="" class="">
@@ -474,10 +474,33 @@
             </div>
             <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Reporting that requires zero explanation</p>
           </div>
-          <!-- The dots -->
-          
         </div>
-
+        <div class="hidden md:grid md:grid-cols-2 justify-items-center lg:grid-cols-4 md:gap-[30px] h-[250px] md:h-auto">
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+            <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
+              <img src="../assets/images/icons/icon-hourglass.png" alt="" class="">
+            </div>
+            <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Save time with dynamic pricing</p>
+          </div>
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+            <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
+              <img src="../assets/images/icons/icon-budjet-money.png" alt="" class="">
+            </div>
+            <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Automatically allocate budget to available units</p>
+          </div>
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+            <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
+              <img src="../assets/images/icons/icon-magnifying-glass.png" alt="" class="">
+            </div>
+            <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Scale across your portfolio easily</p>
+          </div>
+          <div class="md:block bg-white h-[264px] py-[52px] px-6 md:max-w-[290px] rounded-md group md:hover:bg-[#687BFE] md:duration-300 md:hover:transfrom md:hover:-translate-x-6 md:hover:translate-y-6 md:hover:shadow-[24px_-24px_rgba(255,255,255,1)]">
+            <div class="flex items-center justify-center mb-6 w-[78px] h-[78px] bg-[#687BFE] bg-opacity-20 rounded-full md:group-hover:bg-white md:group-hover:bg-opacity-20 duration-300 ">
+              <img src="../assets/images/icons/icon-page-facing.png" alt="" class="">
+            </div>
+            <p class="font-['PublicSans-Medium'] text-lg leading-6 md:group-hover:text-white duration-300">Reporting that requires zero explanation</p>
+          </div>
+        </div>
       </div>
       <img src="../assets/images/multi/multi-how-line.svg" alt="" class="absolute hidden md:flex top-[420px] right-0">
       <img src="../assets/images/multi/multi-how-line-mobile.svg" alt="" class="absolute  md:hidden bottom-[219px] left-0">
