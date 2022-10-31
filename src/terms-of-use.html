@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <!-- Google / Search Engine Tags -->
+    <meta
+      itemprop="name"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      itemprop="description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      itemprop="image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.getflair.io" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      property="og:description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      property="og:image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Your Resident Acquisition Platform | Flair"
+    />
+    <meta
+      name="twitter:description"
+      content="Flair is a brand new way to acquire residents and look great doing it. "
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.getflair.io/images/landing-block4-card.png"
+    />
+    <!-- Meta Tags Generated via http://heymeta.com -->
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/styles/custom.css">
+    <title>Your Resident Acquisition Platform | Flair</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      var userData = JSON.parse(localStorage.getItem("userInfo"));
+
+      if (userData && userData["name"] != "") {
+        if (userData.first_name != "") {
+          var userName = userData.first_name + " " + userData.last_name;
+        } else {
+          userName = userData.name;
+        }
+        window.dataLayer.push({
+          event: "user",
+          logged_in: true,
+          email: userData.email,
+          userId: userData.username,
+          created_at: "",
+          name: userName,
+        });
+      } else {
+        window.dataLayer.push({
+          event: "user",
+          logged_in: false,
+          userId: false,
+          email: false,
+          name: false,
+          created_at: "",
+        });
+        deleteAllCookies();
+      }
+
+      function deleteAllCookies() {
+        var cookies = document.cookie.split(";");
+
+        for (var i = 0; i < cookies.length; i++) {
+          var cookie = cookies[i];
+          var eqPos = cookie.indexOf("=");
+          var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+          document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+      }
+    </script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5WQN53V");
+    </script>
+    <!-- End Google Tag Manager -->
+    <style>
+      .landing-block2 p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.4px;
+      }
+      .landing-block2 h1 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+      }
+      .landing-block2 h2 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5WQN53V"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="">
+      
+      <nav id="mainMenu" class="z-30 bg-color-base text-white  fixed w-full duration-500">
+        <div class="wrap">
+          <div class="h-[64px] lg:h-[92px] flex justify-between items-center">
+            <a id="lightLogo" href="./index.html" class="cursor-pointer lg:flex">
+              <img src="./assets/images/icons/mobile_menu/logo_mobile.svg" alt="">
+            </a>
+            <a id="blackLogo" href="./index.html" class="cursor-pointer hidden lg:hidden">
+              <img src="./assets/images/icons/mobile_menu/logo_black.svg" alt="">
+            </a>
+            <a class="cursor-pointer lg:hidden" onclick="openNav()">
+              <svg id="hamberg" width="24" height="24" viewBox="0 0 24 24" class="fill-white" >
+                <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"/>
+              </svg>
+            </a>
+            <ul class=" font-['PublicSans-Medium'] text-sm gap-10 items-center  hidden lg:flex">
+              <li>
+                <a href="./our_why.html" class="h-16 lg:h-[92px] flex items-center hover:text-[#687BFE]">Our Why</a>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Features
+                  <svg id="menuDrop1" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div id="menuGroup1" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-100 duration-500">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                      <p class="flex">
+                        <a href="./features/dynamic-pricing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                      <p class="flex">
+                        <a href="./features/predictive-marketing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                      <p class="flex">
+                        <a href="./features/flexibility.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">By Role
+                  <svg id="menuDrop2" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div id="menuGroup2" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-100 duration-500">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                      <p class="flex">
+                        <a href="./by_role/marketing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                      <p class="flex">
+                        <a href="./by_role/operations.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                      <p class="flex">
+                        <a href="./by_role/ownership.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="group">
+                <a href="#no" class="h-16 lg:h-[92px]  group-hover:text-[#687BFE] flex items-center">Resourсes
+                  <svg id="menuDrop3" class="ml-2 group-hover:rotate-180 fill-white group-hover:fill-[#687BFE]" width="12" height="7" viewBox="0 0 12 7"  >
+                    <path d="M6 4.45487L10.6669 0L12 1.27256L6 7L0 1.27256L1.33312 0L6 4.45487Z" fill=""/>
+                  </svg>
+                </a>
+                <div id="menuGroup3" class="fixed left-0 top-[92px] text-color-base bg-[#F5FAFF] group-hover:border-t-[1px] group-hover:border-b-[1px] group-hover:border-[#C6D6EA]  w-full overflow-y-hidden h-0 group-hover:h-[295px] delay-100 duration-500">
+                  <div class="wrap py-[30px] flex justify-center gap-3">
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                      <p class="flex">
+                        <a href="./resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                      <p class="flex">
+                        <a href="./resources/case_studies.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                    <div class="w-[367px] pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                      <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                        <img src="./assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                      </div>
+                      <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                      <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                      <p class="flex">
+                        <a href="./resources/budget_calculator.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="./case_studies.html" class="h-16 lg:h-[92px] flex items-center hover:text-[#687BFE]">Case Studies</a>
+  
+              </li>
+            </ul>
+            <div class="font-['PublicSans-Bold'] text-sm gap-8 items-center hidden lg:flex">
+              <a href="#no" class="">Log in</a>
+              <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class="px-7 py-3 bg-[#FF7F5F] text-white rounded  hover:bg-opacity-80 duration-300">Let's Talk </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      <div id="navBar" class="z-30 relative   w-full  lg:hidden hidden">
+        <nav class="fixed bg-[#F5FAFF] w-full">
+          <div class="w-[100%] pl-5 sm:pl-10 md:pl-20 pr-5 sm:pr-10 md:pr-20">
+            <div class="h-[64px] flex justify-between items-center">
+                <a href="./index.html" class="cursor-pointer">
+                  <img src="./assets/images/icons/mobile_menu/logo_black.svg" alt="">
+                </a>
+                <a class="cursor-pointer" onclick="closeNav()">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" >
+                    <path d="M10 7.77813L17.7781 0L20 2.22187L12.2219 10L20 17.7781L17.7781 20L10 12.2219L2.22187 20L0 17.7781L7.77813 10L0 2.22187L2.22187 0L10 7.77813Z" fill="#161D37"/>
+                  </svg>
+                </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div id="mobileMenu" class="z-20  overflow-x-hidden fixed overflow-y-auto h-[100vh] w-0 right-0 pb-[52px] bg-[#F5FAFF] duration-500">
+        <div class="pt-[84px] pb-[26px] text-xl font-['PublicSans-Bold']  mobile_wrap mx-auto">
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="./our_why.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Our Why</p><img src="./assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+          <div id="mobile_nav_accordion-collapse" data-accordion="collapse">
+            <div id="menu_accordion_1" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-1" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-1" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-1">
+                  <span>Features</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="./assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-1" class=" overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-1">
+                <div class="mt-[18px] pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#38D086] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_walet.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Dynamic Pricing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Insert Real Time Pricing into Your Google Ads - increase lead-quality dramatically.</p>
+                    <p class="flex">
+                      <a href="./features/dynamic-pricing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_hand.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Predictive Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Automatically flex your budget according to current & future availability.</p>
+                    <p class="flex">
+                      <a href="./features/predictive-marketing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_king.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Flexibility</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Flexibility Lets You Move Quickly According to Your Community’s Needs.</p>
+                    <p class="flex">
+                      <a href="./features/flexibility.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_2" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-2" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-2" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-2">
+                  <span>By Role</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="./assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-2" class=" overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-2">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#EA7E32] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_rise_arrow.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Marketing</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Easily scale marketing without manual updates.</p>
+                    <p class="flex">
+                      <a href="./by_role/marketing.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_desktop.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Operations</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Adding new marketing programs shouldn’t be stressful.</p>
+                    <p class="flex">
+                      <a href="./by_role/operations.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D7F6E7] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_spark.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Ownership</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Reduce average time on market, increase NOI.</p>
+                    <p class="flex">
+                      <a href="./by_role/ownership.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu_accordion_3" class="w-full">
+              <p id="mobile_nav_accordion-collapse-heading-3" class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+                <a class="cursor-pointer flex justify-between pr-1 items-center" data-accordion-target="#mobile_nav_accordion-collapse-body-3" aria-expanded="true" aria-controls="mobile_nav_accordion-collapse-body-3">
+                  <span>Resources</span>
+                  <img data-accordion-icon="" class="text-[#B7BCC8]  shrink-0" src="./assets/images/icons/mobile_menu/vector_black_down.svg" alt="">
+                </a>
+              </p>
+              <div id="mobile_nav_accordion-collapse-body-3" class=" overflow-y-hidden" aria-labelledby="mobile_nav_accordion-collapse-heading-3">
+                <div class="pt-3 pb-[10px] flex flex-col gap-[14px] max-w-[335px]">
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#D9E1FF] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_bill.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Building Blocks Newsletter</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">The text describing this page. The text describing this page.</p>
+                    <p class="flex">
+                      <a href="./resources/building_blocks_newsletter.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#FF7F5F] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_write.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Case Studies</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Digital marketing multifamily case study</p>
+                    <p class="flex">
+                      <a href="./resources/case_studies.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                  <div class="pt-4 pb-6 pl-4 pr-[43px] bg-white">
+                    <div class="w-[37px] h-[37px]  rounded-full bg-[#A8B1EF] bg-opacity-20 flex items-center justify-around">
+                      <img src="./assets/images/icons/mobile_menu/vector_budget.svg" alt="">
+                    </div>
+                    <p class="pb-3 pt-[14px] text-lg">Budget Calculator</p>
+                    <p class="pb-2 font-['PublicSans-Regular'] text-base text-[#515868] leading-6">Google Ads Monthly Budget Calculator</p>
+                    <p class="flex">
+                      <a href="./resources/budget_calculator.html" class="text-base flex">Learn more<img src="./assets/images/icons/mobile_menu/vector_right_small.svg" alt="" class="pl-2"></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="py-[18px] border-b-[1px] border-[#C6D6EA] border-solid">
+            <a href="./case_studies.html" class="cursor-pointer flex justify-between pr-1 items-center"><p class="">Case Studies</p><img src="./assets/images/icons/mobile_menu/mobile_menu_vector_right.svg" alt=""></a>
+          </div>
+        </div>
+        <a href="https://share.hsforms.com/1mwqI1_kFTziqhGcdXz7o3w3bois" class=""><p class="text-center bg-[#FF7F5F] font-['PublicSans-Bold'] text-xl text-white py-3 rounded   hover:bg-opacity-80 duration-300 max-w-[330px] mx-auto">Let's Talk</p></a>
+        <p class="text-center pt-[18px] font-['PublicSans-Bold'] text-xl"><a href="#no" class="">Log in</a></p>
+      </div>
+    </header>
+
+
+
+    
+    <section id="main" class="relative  bg-[#161D37] h-screen min-h-[674px] pt-[92px] w-full">
+      <div class="wrap">
+        <div class="pt-[95px] md:pt-[184px] md:max-w-[840px] md:text-center md:m-auto">
+          <h1 class="font-['PublicSans-ExtraBold'] text-5xl pb-6 md:text-[54px] leading-[62px] md:leading-[70px] text-white">Terms of Use</h1>
+          <p class="font-medium text-[#E9ECF1] text-lg leading-6 ">Effective date: August 01, 2019</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-[104px] pb-[200px] privacy">
+      <div class="wrap text-[#222A3A]">
+        <p class="text-lg leading-6">
+          These Terms of Use, together with Flair’s Privacy Policy, set forth the terms and conditions (these “Terms”) that apply to your access and use of all Flair products and services (together, the “Flair Services” or the “Services”), that are made available to you through our websites including but not limited to <span class="text-[#FF7F5F]">[insert website url]</span>, as well as through certain downloadable mobile applications (together, the “Sites”). “Flair” includes Flair Technologies, Inc. and its officers, directors, employees, consultants, affiliates, subsidiaries, third party service providers, and agents (collectively referred to as (“<strong>Flair</strong>”, “<strong>us</strong>”, “<strong>our</strong>”, and “<strong>we</strong>”). 
+          <br><br>
+          By using or accessing the Flair Services you agree to these Terms, as updated from time to time in accordance with the terms set forth herein. These Terms set forth the legally binding terms and conditions that govern your use of the Flair Services.  By downloading, installing, or using the Flair Services, or by clicking the “I agree” or similar icon, you acknowledge and agree that you have read, understood, and agree to be bound by these Terms and the Privacy Policy, located at <span class="text-[#FF7F5F]">[insert URL]</span> on behalf of yourself or the entity that you represent.  You represent and warrant that you have the right, authority, and capacity to enter into these Terms on behalf of yourself or the entity that you represent.  You may not access or use the Flair Services or accept the Terms if you are not at least 18 years old. The Flair Services are intended for U.S. residents only.  If you do not agree to the Terms, you should not install or use the Flair Services or you should stop using the Flair Services and uninstall it.
+          <br><br>
+          Flair may offer additional products and services from time to time.  Certain features of the Flair Services may be subject to additional guidelines, terms, or rules, which will be posted on the Flair Services or the Sites in connection with such features.  All such additional terms, guidelines, and rules are incorporated by reference into these Terms.
+        </p>
+        <h3 class="font-['PublicSans-SemiBold'] text-[22px] leading-7 py-8 uppercase">THIS AGREEMENT REQUIRES THE USE OF ARBITRATION (SECTION 12) ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR CLASS ACTIONS, AND ALSO LIMIT THE REMEDIES AVAILABLE TO YOU IN THE EVENT OF A DISPUTE.</h3>
+        <p class="text-lg leading-6">
+          We reserve the right to update and modify these Terms at any time, so please review them frequently either via the Services or by visiting <span class="text-[#FF7F5F]">[insert URL]</span>.  Your continued use of the Services after notification of any changes will signify your acceptance of such changes to these Terms.
+        </p>
+
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] pt-20 pb-8">1.	Services and access to the Service</h2>
+        <p class="text-lg leading-6">
+          1.1.	License.  In consideration of your payment of any applicable fees for the Services and subject to the terms and conditions of these Terms, Flair hereby grants you a limited, non-exclusive, non-assignable, non-transferable, revocable right, during the Term, to access and use the Flair Services, either through the Sites or through an application programming interface (“<strong>API</strong>”).  In order to use the Services, you will need to create and maintain an account (“<strong>Account</strong>”). In order to access and use your Account, you will be provided with a username and password (“<strong>Account Credentials</strong>”).  
+          <br><br>
+          1.2.	Certain Restrictions.  The rights granted to you in these Terms are subject to the following restrictions: you may not: (a) sublicense, sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit or monetize the Service, whether in whole or in part, or any content displayed on the Flair Services, or otherwise make the Flair Services available to any third party without our permission; (b) modify, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Flair Services; (c) access the Flair Services in order to build a similar or competitive mobile application, website, product, or service; or (d) except as expressly stated herein, copy, reproduce, distribute, republish, download, display, post or transmit in any form or by any means the Flair Services or any portion of the Flair Services.  Unless otherwise indicated, any future release, update, or other addition to functionality of the Flair Services shall be subject to these Terms.  All copyright and other proprietary notices on the Flair Services (or on any content displayed on the Flair Services) must be retained on all copies thereof.
+          <br><br>
+          1.3.	Use of the Flair Services. You are responsible for all activity occurring under your Account and shall (i) abide by all applicable local, state, national and foreign laws, guidelines, treaties and regulations in connection with your use of the Flair Services, including those related to advertising, data privacy, international communications and the transmission of technical or personal data, and all compulsory industry self-regulations “as well as all  fair housing laws (including the Fair Housing Act (42. U.S.C. § 3601 et. seq.)), the Federal Do-Not Call rules, and the Federal CAN-SPAM rules, (“<strong>Applicable Laws</strong>”), (ii) not use the Flair Services in a manner that could reasonably be expected to damage the Flair Services.  You shall notify Flair immediately of any unauthorized access to or use of your Account or Account Credentials or any other known or suspected breach of security involving your Account or Account Credentials, and, in such event, you shall use reasonable efforts to stop immediately any copying, distribution or misuse data and/or the Flair Services (or any content thereon) that is known or suspected by you. You are responsible for maintaining the confidentiality of your Account Credentials.  We cannot and will not be liable for any loss or damage arising from your failure to comply with the above requirements.  We reserve the right to take any action that we deem necessary to ensure the security of the Flair Service and your Account, including without limitation changing your password, terminating your Account, or requesting additional information to authorize activity on your Account.
+          <br><br>
+          1.4.	Requirements.  You are responsible for providing and maintaining, at your own risk, option, and expense, any hardware, equipment. software, and communication lines required to access and use the Flair Services, and we reserve the right to change the access configuration of the Flair Services at any time without prior notice.  
+          <br><br>
+          1.5.	Modification.  We reserve the right, at any time, to modify, suspend, or discontinue the Flair Services (in whole or in part) with or without notice to you.  You agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the Flair Services or any part thereof.
+          <br><br>
+          1.6.	Provision of Services.  Flair shall provide the Flair Services in accordance with the features, pricing terms and other metrics as set forth in this Agreement and the Sites.  Flair and its licensors reserve all rights not expressly granted hereunder, including the right, in its sole discretion to continually evolve the Flair Services and all related technologies, to upgrade, modify or discontinue, temporarily or permanently, all or a part of the Flair Services and to regulate traffic or your use of the Flair Services at any time and without notice in its sole discretion. In the event that Flair exercises any such right and your access or use of the Flair Services is materially restricted, however, Flair will use reasonable efforts to provide you with notice of the actions taken as soon as practicable.  
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">2.	Ownership.</h2>
+        <p class="text-lg leading-6">
+          2.1.	Flair Ownership.  Excluding any Materials that you may provide (as defined below), you acknowledge that all the intellectual property rights, including copyrights, patents, trademarks, and trade secrets, in the Flair Services and its content are owned by us or by our suppliers.  Neither these Terms (nor your access to the Flair Services) transfers to you or any third party any rights, title or interest in or to such intellectual property rights, except for the limited access rights expressly set forth in Section 1.1.  We and our suppliers reserve all rights not granted in these Terms.  There are no implied licenses granted under these Terms.
+          <br><br>
+          2.2.	Your Data.  You, and not Flair, shall own any information, Materials and data provided to Flair for use in connection with the Flair Services (“Your Data”).  You, not Flair, shall have sole responsibility for the accuracy, quality, integrity, legality, reliability, appropriateness, and intellectual property ownership or right to use of Your Data, and, except for a material breach of this Agreement by Flair in connection with Your Data, Flair shall not be responsible or liable in any manner for Your Data. Under no circumstance shall you provide Flair with personal information, personally identifiable information, personal data or information capable of identifying a particular individual. 
+          <br><br>
+          2.3.	License. Flair shall be free to use Your Data in an aggregate anonymized form so long as it is not capable of identifying you for Flair’s own internal use and marketing, and you hereby grant Flair a worldwide, non-exclusive, perpetual, royalty-free, fully paid-up license to use such aggregate information for such purposes including, without limitation, improving the operation of the Flair Services, statistical analysis and distributing aggregated statistics to clients, potential clients and the general public.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">3.	Accounts</h2>
+        <p class="text-lg leading-6">
+          3.1.	Account Creation.  In order to use certain features of the Flair Services, you must register for an Account and provide certain information about yourself as prompted by the account registration form.  You represent and warrant that: (a) all required registration information you submit is truthful and accurate; (b) you will maintain the accuracy of such information.  You may terminate your Account at any time, for any reason, by following the instructions on the Flair Services.  We may also suspend or terminate your Account in accordance with these Terms.
+          <br><br>
+          3.2.	Subscriptions.  It is free to register for an Account, however we also may offer additional premium subscriptions for you to purchase (each a “Subscription”).  Details on the costs and the specific services provided with a particular Subscription will be found on the registration page for that Subscription.  By purchasing a Subscription, you authorize us to charge you, and you agree to pay, on a recurring basis (e.g., monthly or yearly) for the applicable Subscription charge, any and all taxes or possible transaction fees, and any other charges incurred in connection with your use of the Subscription, such as payments to the advertising platforms. Subscriptions will automatically renew for the same time period at our then-current rates unless you cancel it according to these Terms. To avoid charges for a new Subscription period, you must cancel the Subscription before the end of the then-current Subscription period by following the instructions on the Flair Services.  If you cancel your Subscription, you may use your Subscription until the end of the period you last paid for, but you will not be eligible for a prorated refund and your Subscription will not be renewed when that period expires.
+          <br><br>
+          3.3.	Changes.  We reserve the right to add or remove features or services from a particular Flair Service, to add new premium services or to stop providing a premium service at any time in our sole discretion.  We will use reasonable efforts to provide you as much notice as we can if we do so.  We may change the prices we charge for the Flair Services and/or the Subscriptions from time to time and will communicate any price changes to you in advance.  To the extent any such price changes apply to you, those changes will take effect at the start of the next billing cycle for your Flair Services following the date of the price change.  As permitted by local law, you accept any applicable new price by continuing to use the Flair Services after the price change takes effect.  If you do not agree with any price change that is applicable to you, you have the right to reject the change by cancelling the Flair Services prior to the price change going into effect.  
+          <br><br>
+          3.4.	Payments.  
+          <br><br>
+          3.4.1.	Access to certain Flair Services and engaging in certain transactions may require you to pay fees (“Fees”).  Fees will include both the Subscription charges to Flair as well as charges from the advertising platforms themselves, each of which will be charged to your Account separately.  You may be asked to supply information relevant to such transactions, including without limitation bank account and routing numbers, credit/debit card number, credit/debit card verification or other security code, the expiration date of your credit/debit card, and your address affiliated with your selected payment method.  We will treat any such information provided through the Flair Services in accordance with this Agreement and the Privacy Policy.  Verification of information may be required prior to the acknowledgment or completion of any transaction.  You represent and warrant that you have the legal right to use any banking, credit/debit card(s) or other Payment Method (as defined below) that you use in connection with any transaction.
+          <br><br>
+          3.4.2.	You may be required to register your personal and/or financial information with us in order to use certain areas of the Flair Services, for example, to initiate transactions.  In doing so, you agree that you will provide accurate and complete information.  We may refuse to process your information or requested transactions if we believe that you may be: i) impersonating another person; ii) violating the intellectual property or other rights of any entity; iii) posting materials that are offensive or that violate Applicable Law; or iv) providing any information that we may otherwise reject for any or no reason in our sole discretion.  
+          <br><br>
+          3.4.3.	We, or a third-party payment processor (“<strong>Payment Processor</strong>”) may process your payment and charge Fees to you through your registered Account for use of the Flair Services.  When you use the Flair Services to make a payment, you consent to our use of a Payment Processor to facilitate and/or process payments made or received through the Flair Services, including, without limitation, consent to access, charge or debit a payer’s credit card, debit card, bank account or other payment mechanism.  You agree to pay all Fees relating to your Transactions to us through the Payment Processor, and you authorize us to charge your chosen payment provider (e.g., bank account) (“<strong>Payment Method</strong>”) through the Payment Processor.  The processing of payments will be subject to the terms, conditions and privacy policies of the Payment Processor in addition to this Agreement.  We are not responsible for errors made by the Payment Processor.
+          <br><br>
+          3.4.4.	Your Account will be considered delinquent if payment in full is not successful when a charge is initiated.  Unless specified in an invoice, amounts due are exclusive of all applicable taxes, levies, or duties, and you will be responsible for payment of all such amounts. If you believe that any specific charge under this Agreement is incorrect, in order to obtain a credit, you must contact us in writing within thirty (30) days after the payment due date, and set forth the nature and amount of the requested correction. Otherwise, charges are final.
+          <br><br>
+          3.4.5.	In addition to other applicable remedies, we reserve the right to suspend and/or terminate your access to the Flair Services and/or terminate this Agreement if your Payment Method is declined or fails and your account therefore is delinquent. 
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">4.	Materials and Feedback</h2>
+        <p class="text-lg leading-6">
+          4.1.	Your Materials.  Any data, text, graphics, photographs and their selection and arrangement, and any other materials provide by you or uploaded to the Flair Services are your “<strong>Materials</strong>.” You represent and warrant that your Materials are original to you and that you exclusively own the rights to such Materials, including the right to grant all of the rights and licenses in these Terms without Flair incurring any third-party obligations or liability arising out of its exercise of such rights and licenses. All of your Materials are your sole responsibility, and Flair is not responsible for any material that you upload, post, or otherwise make available. By uploading, distributing, transmitting or otherwise using your Materials with the Flair Services, you grant to us a perpetual, nonexclusive, transferable, royalty-free, sublicensable, and worldwide license to use, host, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform, and display your Materials in connection with operating and providing the Flair Services and any services we provide, subject to the terms of the Privacy Policy. Flair does not guarantee the accuracy, quality, or integrity of any user Materials posted by you or any other user of the Flair Services and you agree that Flair will not under any circumstances be liable for any user Materials, including, but not limited to, errors in any user Materials, or any loss or damage incurred by use of user Materials. We reserve the right to remove and permanently delete your Materials from the Flair Services with or without notice for any reason or no reason. 
+          <br><br>
+          4.2.	Feedback.  If you provide us with any feedback or suggestions regarding the Flair Services (“Feedback”), you hereby assign to us all rights in such Feedback and agree that we shall have the right to use and fully exploit such Feedback and related information in any manner it deems appropriate.  We will treat any Feedback you provide to us as non-confidential and non-proprietary.  You agree that you will not submit to us any information or ideas that you consider to be confidential or proprietary.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">5.	Acceptable Use Policy.  The following terms constitute our “Acceptable Use Policy”:</h2>
+        <p class="text-lg leading-6">
+          5.1.	You agree not to use the Flair Services to collect, upload, transmit, display, or distribute any Materials (i) that violates any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; (ii) that is unlawful, harassing, abusive, tortious, threatening, harmful, invasive of another’s privacy, vulgar, defamatory, false, intentionally misleading, trade libelous, pornographic, obscene, patently offensive, promotes racism, bigotry, hatred, or physical harm of any kind against any group or individual or is otherwise objectionable; (iii) that is harmful to minors in any way; or (iv) that is in violation of any law, regulation, or obligations or restrictions imposed by any third party.
+          <br><br>
+          5.2.	In addition, you agree not to: (i) upload, transmit, or distribute to or through the Flair Services any computer viruses, worms, or any software intended to damage or alter a computer system or data; (ii) send through the Flair Services unsolicited or unauthorized advertising, promotional materials, junk mail, spam, chain letters, pyramid schemes, or any other form of duplicative or unsolicited messages, whether commercial or otherwise; (iii) use the Flair Services to harvest, collect, gather or assemble information or data regarding other users, including e-mail addresses, without their consent; (iv) interfere with, disrupt, or create an undue burden on servers or networks connected to the Flair Services, or violate the regulations, policies or procedures of such networks; (v) attempt to gain unauthorized access to the Flair Services (or to other computer systems or networks connected to or used together with the Flair Services), whether through password mining or any other means; (vi) harass or interfere with any other user’s use and enjoyment of the Flair Services; (vii) use software or automated agents or scripts to produce multiple accounts on the Flair Services, or to generate automated searches, requests, or queries to (or to strip, scrape, or mine data from) the Flair Services; or (viii) use the Flair Services for any illegal, unauthorized, unintended, unsafe, hazardous, fraudulent, deceptive or unlawful purposes (including, without limitation, in violation of any data, privacy or export control laws), or in any manner inconsistent with these Terms.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">6.	Third-Party Links</h2>
+        <p class="text-lg leading-6">
+          6.1.	Third-Party Links.  The Flair Services may contain links to third-party websites and services (collectively, “Third-Party Links”).  Such Third-Party Links are not under the control of Flair, and Flair is not responsible for any Third-Party Links.  Flair provides access to these Third-Party Links only as a convenience to you, and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Links.  You use all Third-Party Links at your own risk and should apply a suitable level of caution and discretion in doing so.  When you click on any of the Third-Party Links, the applicable third party’s terms and policies apply, including the third party’s privacy and data gathering practices.  You should make whatever investigation you feel necessary or appropriate before proceeding with any transaction in connection with such Third-Party Links.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">7.	Warranty Disclaimers</h2>
+        <p class="text-lg leading-6">
+          7. 1. Warranty Disclaimers. Neither we, our service providers, nor any third-party beneficiary makes ANY WARRANTIES, EXPRESS OR IMPLIED, about the Flair Services (including the content or other information delivered to you as part of the Flair Services).  In addition, we do not promise uninterrupted or problem-free service and do not promise that the data or information provided to you will be error free.  Use of the Flair Services is at your own sole risk.  THE FLAIR SERVICES ARE PROVIDED ON AN “AS-IS” AND “AS AVAILABLE” BASIS, AND WE (AND OUR SUPPLIERS) EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ALL WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, ACCURACY, OR NON-INFRINGEMENT.  NEITHER WE, NOR ANY OF OUR SUPPLIERS, MAKE ANY WARRANTIES, EXPRESS OR IMPLIED, ABOUT THE FLAIR SERVICES OR ABOUT ANY DATA OR INFORMATION PROVIDED BY US.  WE (AND OUR SUPPLIERS) MAKE NO WARRANTY THAT FLAIR SERVICES WILL MEET YOUR REQUIREMENTS, WILL BE AVAILABLE ON AN UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE BASIS, OR WILL BE ACCURATE, RELIABLE, FREE OF VIRUSES OR OTHER HARMFUL CODE, COMPLETE, LEGAL, OR SAFE.  IF APPLICABLE LAW REQUIRES ANY WARRANTIES WITH RESPECT TO THE FLAIR SERVICES, ALL SUCH WARRANTIES ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE OF FIRST USE.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.  SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">8.	Indemnification; Release</h2>
+        <p class="text-lg leading-6">
+          8.1.	Indemnification.  You agree to indemnify and hold Flair (and its officers, employees, and agents) harmless, including costs and attorneys’ fees, from any claim or demand made by any third party due to or in any way arising out of (a) your use of the Flair Services, (b) your violation of these Terms, (c) your violation of applicable laws or regulations or (d) your Materials.  Flair reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate with our defense of these claims.  You agree not to settle any matter without the prior written consent of Flair.  We will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it.
+          <br><br>
+          8.2.	Release.  You hereby release and forever discharge Flair (and our officers, employees, agents, successors, and assigns) from, and hereby waive and relinquish, each and every past, present and future dispute, claim, controversy, demand, right, obligation, liability, action and cause of action of every kind and nature that has arisen or arises directly or indirectly out of, or that relates directly or indirectly to, the Flair Services (including any interactions with, or act or omission of, other Service users or any Third-Party Links).  IF YOU ARE A CALIFORNIA RESIDENT, YOU HEREBY WAIVE CALIFORNIA CIVIL CODE SECTION 1542 IN CONNECTION WITH THE FOREGOING, WHICH STATES: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS OR HER SETTLEMENT WITH THE DEBTOR.”
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">9.	Limitation on Liability</h2>
+        <p class="text-lg leading-6">
+          9.1.	Waiver of Consequential Damages.  TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL FLAIR (OR ITS SUPPLIERS) BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFITS, LOST DATA, COSTS OF PROCUREMENT OF SUBSTITUTE PRODUCTS, OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES ARISING FROM OR RELATING TO THESE TERMS OR YOUR USE OF, OR INABILITY TO USE, THE FLAIR SERVICES, EVEN IF FLAIR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  ACCESS TO, AND USE OF, THE FLAIR SERVICES IS AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR DEVICE OR COMPUTER SYSTEM, OR LOSS OF DATA RESULTING THEREFROM.
+          <br><br>
+          9.2.	Cap on Liability.  TO THE MAXIMUM EXTENT PERMITTED BY LAW, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY DAMAGES ARISING FROM OR RELATED TO THIS AGREEMENT (FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION), WILL AT ALL TIMES BE LIMITED TO THE AMOUNTS PAID BY YOU IN THE 12-MONTHS PRIOR THE EVENT GIVING RISE TO THE CAUSE OF ACTION. THE EXISTENCE OF MORE THAN ONE CLAIM WILL NOT ENLARGE THIS LIMIT.  YOU AGREE THAT OUR SUPPLIERS WILL HAVE NO LIABILITY OF ANY KIND ARISING FROM OR RELATING TO THIS AGREEMENT.
+          <br><br>
+          9.3.	Exclusions.  SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">10.	Term and Termination</h2>
+        <p class="text-lg leading-6">
+          10.1.	Term of Agreement.  Subject to this Section, these Terms will remain in full force and effect while you use the Flair Services. 
+          <br><br>
+          10.2.	Suspension, Termination and the Effect of Termination.   You may terminate your Account at any time through the Flair Services. We may suspend or terminate your Account or your rights to use the Flair Services at any time and for any reason at our sole discretion, including for any use of the Flair Services in violation of these Terms.  In the event we suspend access to your Account, we will use commercially reasonable efforts to notify you of the reason(s) for such suspension as reasonably practicable prior to any suspension, but in no event less than seventy-two (72) hours after the start of any suspension.  Upon termination of your rights under these Terms for any reason, your Account, and right to access and use the Flair Services will end immediately.  You understand that any termination of your Account may involve deletion of your Materials associated with your Account.  Flair will not have any liability whatsoever to you for any suspension or termination of your rights under these Terms, including for termination of your Account or deletion of your Materials.  Even after your rights under these Terms are terminated, the following provisions of these Terms will remain in effect: Sections 1.2, Section 2, and Sections 4 through 13.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">11.	Proprietary Information.</h2>
+        <p class="text-lg leading-6">
+          11.	Proprietary Information.  The Flair Service, the content and information therein, and all improvements, additions, derivatives, and other modifications thereto, and any information pertaining to the foregoing, are the exclusive property of Flair and/or its licensors and shall be considered and treated by you as the proprietary information of Flair (the “<strong>Flair Proprietary Information</strong>”).  You acknowledge and agree that Flair is the owner of Flair Proprietary Information, and you agree that you have no right, title, or interest in any of Flair Proprietary Information except the right to use the Flair Services in accordance with and subject to this Agreement.  You agree not to, directly or indirectly, disclose, sell, or otherwise transfer or exploit Flair Proprietary Information, or any portion thereof, to any other person or entity or allow any other person or entity to use Flair Proprietary Information, or any portion thereof, without the prior written consent of Flair, which may be withheld in Flair’s sole discretion.  You further agree not to challenge or assist with or participate in any challenge, directly or indirectly, of Flair’s ownership of Flair Proprietary Information or any right, title, or interest therein or any portion thereof.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">12.	Arbitration Agreement and Class Action Waiver</h2>
+        <p class="text-lg leading-6">
+          12.1.	Governing Law.  This Agreement will be governed and interpreted in accordance with the laws of the State of Florida, USA without reference to conflicts of laws principles.
+          <br><br>
+          12.2.	Dispute Resolution.  Please read this Arbitration Agreement carefully.  It is part of your contract with Flair and affects your rights.  It contains procedures for MANDATORY BINDING ARBITRATION AND A CLASS ACTION WAIVER.  Arbitration is an alternative to litigation where a neutral person (the arbitrator) hears and decides the parties’ dispute.  Arbitration proceedings are designed to provide parties with a fair hearing in a manner that is faster and less formal than court proceedings.  The following procedures apply to all arbitration proceedings involving you and us.
+          <br><br>
+          12.3.	Applicability of Arbitration Agreement.  All claims and disputes (excluding claims for injunctive or other equitable relief as set forth below) in connection with the Terms or the use of any product or service provided by Flair that cannot be resolved informally or in small claims court shall be resolved by binding arbitration on an individual basis under the terms of this Arbitration Agreement.  Unless otherwise agreed to, all arbitration proceedings shall be held in English.  This Arbitration Agreement applies to you and Flair, and to any subsidiaries, affiliates, agents, employees, predecessors in interest, successors, and assigns, as well as all authorized or unauthorized users or beneficiaries of services or goods provided under the Terms.
+          <br><br>
+          12.4.	Notice Requirement and Informal Dispute Resolution.  Before either party may seek arbitration, the party must first send to the other party a written Notice of Dispute (“Notice”) describing the nature and basis of the claim or dispute, and the requested relief.  A Notice to Flair should be sent to: Flair Technologies, Inc., 100 SE 2nd St. STE 2000 Miami, FL 33131 or such other location as Flair may direct.  After the Notice is received, you and Flair may attempt to resolve the claim or dispute informally.  If you and Flair do not resolve the claim or dispute within thirty (30) days after the Notice is received, either party may begin an arbitration proceeding.  The amount of any settlement offer made by any party may not be disclosed to the arbitrator until after the arbitrator has determined the amount of the award, if any, to which either party is entitled.
+          <br><br>
+          12.5.	Rules for Arbitration.  Any dispute, claim or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation or validity thereof, including the determination of the scope or applicability of this agreement to arbitrate, shall be determined by arbitration before one arbitrator in Miami, Florida, unless the parties agree to a different location.  The arbitration shall be administered pursuant to JAMS's Streamlined Arbitration Rules and Procedures (“JAMS Rules”).  The arbitrator shall have exclusive authority to resolve any arbitrability issues including any dispute over these Terms or this arbitration provision’s scope, application, meaning, and enforceability.  The arbitrator shall be empowered to grant whatever relief would be available in court.  Any award of the arbitrator(s) shall be final and binding and may be entered as a judgment in any court having jurisdiction.  This clause shall not preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate jurisdiction.  The one exception to the exclusivity of arbitration is that either party has the right to bring an individual claim against the other in a small claims court of competent jurisdiction, or, if filed in arbitration, the responding party may request that the dispute proceed in small claims court instead if the claim is within the jurisdiction of the small claims court.  If the request to proceed in small claims court is made before an arbitrator has been appointed, any open arbitration between the parties shall be administratively closed.  If an arbitrator has been appointed, the arbitrator shall determine whether the dispute should remain in arbitration or instead be decided in small claims court.  Arbitration shall be conducted by written submissions only, unless either you or Flair invoke the right to an oral hearing before the arbitrator.
+          <br><br>
+          12.6.	Time Limits.  If you or Flair pursue arbitration, the arbitration action must be initiated and/or demanded within the statute of limitations (i.e., the legal deadline for filing a claim) and within any deadline imposed under the JAMS Rules for the pertinent claim.
+          <br><br>
+          12.7.	Waiver of Jury Trial.  You and Flair expressly and knowingly WAIVE THE RIGHT TO TRIAL BY JURY.  This means that if for any reason the Arbitration Agreement contained in Section 12 is not enforced or is found inapplicable, or either of us file the action in small claims court, our claims against each other will be resolved by a judge rather than a jury.
+          <br><br>
+          12.8.	Waiver of Class or Consolidated Actions.  ALL CLAIMS AND DISPUTES WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS, AND CLAIMS OF MORE THAN ONE CUSTOMER OR USER CANNOT BE ARBITRATED OR LITIGATED JOINTLY OR CONSOLIDATED WITH THOSE OF ANY OTHER CUSTOMER OR USER.
+          <br><br>
+          12.9.	Confidentiality.  All aspects of the arbitration proceeding, including but not limited to the award of the arbitrator and compliance therewith, shall be strictly confidential.  The parties agree to maintain confidentiality unless otherwise required by law.  This paragraph shall not prevent a party from submitting to a court of law any information necessary to enforce this Agreement, to enforce an arbitration award, or to seek injunctive or equitable relief.
+        </p>
+
+        <h2 class="font-['PublicSans-Bold'] text-4xl leading-[46px] py-8">13.	General</h2>
+        <p class="text-lg leading-6">
+          13.1.	Export.  The Flair Service may be subject to U.S. export control laws and may be subject to export or import regulations in other countries.  You agree not to export, reexport, or transfer, directly or indirectly, any U.S. technical data acquired from Flair, or any products utilizing such data, in violation of the United States export laws or regulations.
+          <br><br>
+          13.2.	Disclosures.  Flair is located at the address in Section 12.3.  If you are a California resident, you may report complaints to the Complaint Assistance Unit of the Division of Consumer Product of the California Department of Consumer Affairs by contacting them in writing at 400 R Street, Sacramento, CA 95814, or by telephone at (800) 952-5210.
+          <br><br>    
+          13.3.	Electronic Communications.  The communications between you and Flair use electronic means, whether you use the Flair Services or send us emails, or whether Flair posts notices on the Flair Services or communicates with you via email.  For contractual purposes, you (a) consent to receive communications from Flair in an electronic form; and (b) agree that all terms and conditions, agreements, notices, disclosures, and other communications that Flair provides to you electronically satisfy any legal requirement that such communications be in a hardcopy writing.  The foregoing does not affect your non-waivable rights.
+          <br><br>
+          13.4.	Publicity.  The terms and conditions of this Agreement are confidential, and you agree that you will not disclose such terms and conditions or issue any press releases or other public statements relating to the relationship created by this Agreement without Flair’s prior written approval.  Flair shall be permitted to list you as a customer in Flair’s marketing materials.
+          <br><br>
+          13.5.	Force Majeure. Neither party will be liable for failure or delay in performing its obligations because of causes beyond its reasonable control, including without limitation acts of God, terrorism, war, riots, fire, earthquake, flood or degradation or failure of third-party networks or communications infrastructure.
+          <br><br>
+          13.6.	Entire Terms.  These Terms constitute the entire agreement between you and us regarding the use of the Flair Services.  Our failure to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision.  The section titles in these Terms are for convenience only and have no legal or contractual effect.  The word “including” means “including without limitation”.  If any provision of these Terms is, for any reason, held to be invalid or unenforceable, the other provisions of these Terms will be unimpaired, and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law.  Your relationship to Flair is that of an independent contractor, and neither party is an agent or partner of the other.  These Terms, and your rights and obligations herein, may not be assigned, subcontracted, delegated, or otherwise transferred by you without Flair’s prior written consent, and any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing will be null and void.  Flair may freely assign these Terms.  The terms and conditions set forth in these Terms shall be binding upon assignees.
+          <br><br>
+          13.7.	Copyright/Trademark Information.  Copyright © 2022 Flair Technologies, Inc.  All rights reserved.  All trademarks, logos and service marks (“Marks”) displayed on the Flair Services are our property or the property of other third parties.  You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.
+          <br><br>
+          13.8.	Contact Information: <span class="text-[#FF7F5F]">Contact Us</span>
+        </p>
+
+
+      </div>
+
+    </section>
+
+
+
+    <section id="contact" class="bg-[#161D37] pt-9 md:pt-[90px] min-h-auto relative">
+      <div class="wrap">
+        <div class="flex flex-wrap justify-between text-white pb-8 gap-9">
+          <div class="w-full md:w-auto">
+            <ul class="w-full xs:w-[12rem]">
+              <li class="font-['PublicSans-ExtraBold'] text-xl pb-[15px]"><a href="./index.html" class="cursor-pointer animoBorderLeftRight">Flair</a></li>
+              <li class="text-sm text-[#B7BCC8] pb-8">We are a team of passionate marketers, developers, and strategists who love to geek out over multifamily technology</li>
+              <li class="">
+                <a class="cursor-pointer">
+                  <img src="./assets/images/home_img/google_partner.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <div class="mt-9 bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]  md:hidden"></div>
+          </div>
+          <!-- <div class="flex flex-wrap justify-between text-white gap-5 pb-8">
+          </div> -->
+          <ul class="w-[9.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a href="./our_why.html" class="cursor-pointer animoBorderLeftRight">Our Why</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Features</a></li>
+            <li class="pb-[25px]"><a href="./features/dynamic-pricing.html" class="cursor-pointer animoBorderLeftRight">Dynamic Pricing</a></li>
+            <li class="pb-[25px]"><a href="./features/predictive-marketing.html" class="cursor-pointer animoBorderLeftRight">Predictive Marketing</a></li>
+            <li class="pb-[25px]"><a href="./features/flexibility.html" class="cursor-pointer animoBorderLeftRight">Flexibility</a></li>
+          </ul>
+          <ul class="w-[5.6rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">By Role</a></li>
+            <li class="pb-[25px]"><a href="./by_role/marketing.html" class="cursor-pointer animoBorderLeftRight">Marketing</a></li>
+            <li class="pb-[25px]"><a href="./by_role/operations.html" class="cursor-pointer animoBorderLeftRight">Operations</a></li>
+            <li class="pb-[25px]"><a href="./by_role/ownership.html" class="cursor-pointer animoBorderLeftRight">Ownership</a></li>
+          </ul>
+          <ul class="w-[12.7rem]">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a href="./case_studies.html" class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer animoBorderLeftRight">Resources</a></li>
+            <li class="pb-[25px]"><a href="./resources/building_blocks_newsletter.html" class="cursor-pointer animoBorderLeftRight">Building Blocks Newsletter</a></li>
+            <li class="pb-[25px]"><a href="./resources/case_studies.html" class="cursor-pointer animoBorderLeftRight">Case Studies</a></li>
+            <li class="pb-[25px]"><a href="./resources/budget_calculator.html" class="cursor-pointer animoBorderLeftRight">Budget Calculator</a></li>
+          </ul>
+          <ul class="w-[18.125rem] xl:block ">
+            <li class="font-['PublicSans-ExtraBold'] pb-[25px]"><a class="cursor-pointer">Get product updates</a></li>
+            <li class="flex relative items-center">
+              <input type="" placeholder="Enter email address" class="text-gray-600 h-12 w-[18.125rem] rounded-md pl-2 focus-visible:outline-none">
+              <button  class="absolute right-0 h-12 pl-2 w-10 bg-[#687BFE] rounded-tr-md rounded-br-md"><img src="./assets/images/icons/icons_home/Go_arrow_right.svg" alt=""></button>
+            </li>
+          </ul>
+
+        </div>
+        <div class="bg-[#FFFFFF] h-[1px] opacity-10 max-w-[80.375rem]"></div>
+        <div class="flex flex-col sm:flex-row text-white justify-between py-10">
+          <div class="flex text-[#b9bbc3] gap-12">
+            <a href="privacy-policy.html" class="cursor-pointer hover:text-white duration-200">Privacy Policy</a>
+            <a href="terms-of-use.html" class="cursor-pointer  hover:text-white duration-200">Terms and Conditions</a>
+          </div>
+          <p class="pt-6 sm:pt-0" >© 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/scripts/animate.js"></script>
+
+
+
+  </body>
+</html>

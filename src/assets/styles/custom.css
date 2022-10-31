@@ -12,6 +12,12 @@ body {
     margin: auto;
 }
 
+.privacy .wrap {
+  max-width: 1440px;
+  padding-right: 274px;
+  padding-left: 196px;
+}
+
 .mobile_wrap {
     width: 376px;
     padding-left: 20px;
@@ -20,17 +26,29 @@ body {
 
 @media all and (max-width: 768px) {
     .wrap {
-        max-width: 100%;
-        padding-right: 40px;
-        padding-left: 40px;
+      max-width: 100%;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+
+    .privacy .wrap {
+      max-width: 100%;
+      padding-right: 40px;
+      padding-left: 40px;
     }
 }
 
 @media all and (max-width: 640px) {
     .wrap {
-        max-width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    .privacy .wrap {
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
     }
 }
 
